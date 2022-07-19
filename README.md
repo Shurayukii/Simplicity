@@ -11,6 +11,8 @@ If you see this then it worked.
 
 * **Step 2:** Paste the below code in your terminal:
 
+* **Step 3:** Move the "theme.scss" In the folder with your name out of the folder
+
 ```bash
 cd powercord/src/Powercord/themes
 ```
