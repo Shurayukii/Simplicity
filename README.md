@@ -1,6 +1,6 @@
 ## Current Version: 2.0.1 (BETA RELEASE)
 
-If you see this then it worked.
+New way of Downloading the Theme below:
 
 ## Installation
 
