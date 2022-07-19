@@ -1,5 +1,6 @@
-If you see this then it worked.
+## Current Version: 2.0.1 (BETA RELEASE)
 
+If you see this then it worked.
 
 ## Installation
 
