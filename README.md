@@ -1,4 +1,4 @@
-If you see this then it worked.
+From now on the Theme will ONLY be updated here.
 
 
 ## Installation
