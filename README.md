@@ -3,10 +3,6 @@ If you see this then it worked.
 
 ## Installation
 
-This theme can be used in different ways, with a client mod or in the browser with an extension that allows to load custom css. in the lower section you will find various instructions.
-
-
-
 <!-- Powercord -->
 <details>
 <summary><b>Powercord</b></summary>
