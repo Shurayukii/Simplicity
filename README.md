@@ -16,5 +16,5 @@ cd powercord/src/Powercord/themes
 ```
 
 ```bash
-git clone add here
+git clone https://github.com/Shurayukii/Simplicity.git
 ```
