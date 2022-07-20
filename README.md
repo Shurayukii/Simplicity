@@ -1,4 +1,4 @@
-## Current Version: 2.0.1 (BETA RELEASE)
+## Current Version: 2.0.1.1 (BETA RELEASE)
 
 New way of Downloading the Theme below:
 
