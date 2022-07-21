@@ -19,9 +19,5 @@ New way of Downloading the Theme below:
 * **Step 3:** Move the "theme.scss" In the folder with your name out of the folder
 
 ```bash
-cd powercord/src/Powercord/themes
-```
-
-```bash
-git clone https://github.com/Shurayukii/Simplicity.git
+cd powercord/src/Powercord/themes && git clone https://github.com/Shurayukii/Simplicity.git
 ```
