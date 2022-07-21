@@ -1,5 +1,7 @@
 ## Current Version: 2.0.1.2 (STABLE RELEASE)
 
+## Next Version: 2.0.1.3 (Optimization Update)
+
 New way of Downloading the Theme below:
 
 ## Installation
