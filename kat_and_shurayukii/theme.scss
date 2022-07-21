@@ -1,0 +1,16 @@
+@import 'basics/transparent'; /**/
+@import 'basics/fixes'; /**/
+@import 'basics/addons'; /**/
+@import 'basics/settings'; /**/
+
+/* Optional Imports /**/
+
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
+@import url('https://discord-extensions.github.io/modern-user-connections/src/source.css'); /**/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css"); /**/
+
+
+:root {
+/* Only touch If you want to change your Background, Supports: .gif, .jpg, .png and probably .apng but not sure /**/
+--chattyBackgroundImage: url(https://cdn.discordapp.com/attachments/921402389641179187/998284853416054915/demonslayer.gif);
+}
