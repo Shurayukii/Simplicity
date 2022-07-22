@@ -1,10 +1,10 @@
 ## Current Release: 2.0.1.3:
-Added Back BlurpleRecolor
+* Added Back BlurpleRecolor
 
 ## Next Planned Release: 2.0.2:
-Optimization
+* Optimization
 
-New way of Downloading the Theme below:
+**New way of Downloading the Theme below:**
 
 ## Installation
 
