@@ -1,8 +1,6 @@
 ## Current Release: 2.0.2:
 * Optimization Update Is Here!
 
-**New way of Downloading the Theme below:**
-
 ## Installation
 
 <!-- Powercord -->
