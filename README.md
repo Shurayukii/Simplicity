@@ -1,7 +1,7 @@
-## Current Release: 2.0.2:
+# Current Release: 2.0.2:
 * Optimization Update Is Here!
 
-# Features
+## Features
 - [X] Custom Background Images
 - [X] Modern look of Discord
 
