@@ -1,6 +1,6 @@
 /**
  * @name Simplicity Better Discord Edition
- * @version 2.0.2
+ * @version 2.0.3
  * @author Shurayukii#6756
  * @authorLink https://github.com/Shurayukii/Simplicity
  * @description BD Edition now that Powercord went EOL (Still Recommended To Use Powercord For Now)
@@ -11,6 +11,8 @@
 @import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Facebook.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/icons.css"); /**/
 
 /* I've commented most of these values so you can change them yourself. */
 
