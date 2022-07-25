@@ -15,7 +15,7 @@
 /* I've commented most of these values so you can change them yourself. */
 
 /* Font import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Fredoka+One&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Montserrat:wght@700&display=swap');
 
 /* This link loads fonts. Go to fonts.google.com and have a look!
 If there's any fonts you like, click them, select styles that are
@@ -36,7 +36,7 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 
 /* Fonts */
 --dplus-font-ui: 'Montserrat';
---dplus-font-body: 'Open Sans';
+--dplus-font-body: 'Concert One';
 --dplus-font-header: 'Fredoka One';
 
 /* Round corner sizes, measured in pixel radius
