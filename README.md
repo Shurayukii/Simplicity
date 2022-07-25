@@ -6,6 +6,12 @@
 - [X] Modern look of Discord
 - [X] BetterDiscord Version
 
+## About Powercord EOL
+Now That Powercord Won't Update Anymore, Theme Support For Powercord Version Will Be **Limited** Until Powercord Finally Stops Working, This Means:
+
+* No More Powercord Theme Updates.
+* Bug Fixes Will Be Fixed **AFTER** BetterDiscord Bugs.
+
 ## Installation
 
 <!-- Powercord -->
