@@ -1,0 +1,127 @@
+/**
+ * @name Simplicity Better Discord Edition
+ * @version 2.0.2
+ * @author Shurayukii#6756
+ * @authorLink https://github.com/Shurayukii/Simplicity
+ * @description BD Edition now that Powercord went EOL (Still Recommended To Use Powercord For Now)
+ * @source https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus-source.theme.css
+*/
+@import url(//plusinsta.xyz/discord-plus/DiscordPlus-source.theme.css);
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
+@import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Facebook.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css"); /**/
+
+/* I've commented most of these values so you can change them yourself. */
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@700&family=Oxygen:wght@700&display=swap');
+
+/* This link loads fonts. Go to fonts.google.com and have a look!
+If there's any fonts you like, click them, select styles that are
+the closest to 400 and 700. If you want more fonts, back out to the
+main page and add more. When you're done, click "View selected families"
+in the top right, click the Embed tab, and replace the entire line with
+the "CSS rules" it gives you. After that, just set the fonts below! */
+
+:root {
+/* Background image. Falls back to accent color if invalid.
+   To use an image on your computer, send it anywhere on Discord,
+   then right-click and Copy Link, then paste it between the ()'s'. */
+--dplus-background: url(https://cdn.discordapp.com/attachments/921402389641179187/999042871661445120/EEAA7632-DBC0-4FB2-BD77-18A3068E2CF0.gif);
+
+/* Accent color, used to decorate the UI with colors. */
+--dplus-accent-ui: #4a0c91;
+--dplus-accent-ui-hover: #c954ff;
+
+/* Fonts */
+--dplus-font-ui: 'Montserrat';
+--dplus-font-body: 'Josefin Sans';
+--dplus-font-header: 'Oxygen';
+
+/* Round corner sizes, measured in pixel radius
+   Set avatar/server to 50% for circles
+   UI radius must be in pixels */
+--dplus-radius-ui: 20px;
+--dplus-radius-avatar: 50%;
+--dplus-radius-server: 50%;
+
+/* This determines margins and padding */
+--dplus-spacing-ui: 10px;
+--dplus-spacing-app: 10px;
+
+/* The Home icon */
+--dplus-icon-home-dark: url(https://betterdiscord.app/resources/branding/logo_solid.png);
+--dplus-icon-home-light: url(https://i.kym-cdn.com/entries/icons/mobile/000/032/417/cover3.jpg);
+
+/* Icon sizes */
+--dplus-icon-avatar-chat: 48px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* Width of different elements */
+--dplus-channels-width: 240px;
+--dplus-members-width: 240px;
+--dplus-scrollbar-width: 10px;
+
+/* Blur percentage. Set to 0 to disable blur.
+   Performance may be affected by this option. */
+--dplus-blur-scale: 0;
+
+/* Background covers | Explanations below	*/
+--dplus-dark-bgc-ui-base: hsla(0, 0%, 0%, 0.74);
+--dplus-dark-bgc-ui-base-hover: hsla(0, 0%, 0%, 0.82);
+--dplus-dark-bgc-ui-card: hsla(0, 0%, 7%, 0.75);
+--dplus-dark-bgc-ui-card-hover: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-chatmsg: hsla(0, 0%, 0%, 0.74);
+--dplus-dark-bgc-chatmsg-hover: hsla(0, 0%, 0%, 0.82);
+--dplus-dark-bgc-popout: hsla(0, 0%, 0%, 0.75);
+--dplus-dark-bgc-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-button-hover: hsla(0, 0%, 20%, 0.60);
+--dplus-dark-bgc-server-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-server-button-hover: hsla(0, 0%, 20%, 0.60);
+
+--dplus-light-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
+--dplus-light-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
+--dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
+--dplus-light-bgc-button: hsla(0, 0%, 50%, 0.80);
+--dplus-light-bgc-button-hover: hsla(0, 0%, 40%, 0.50);
+--dplus-light-bgc-server-button: hsla(0, 0%, 95%, 0.75);
+--dplus-light-bgc-server-button-hover: hsla(0, 0%, 100%, 1);
+
+/*___________________________________________________________________________________________________________________________________*/
+--rs-small-spacing: 0.5px; /* Spacing Between The Status And Avatar For Small Icons, Must End In "px", Standard: 0.5px */
+--rs-medium-spacing: 1.5px; /* Spacing Between The Status And Avatar For Medium Icons, Must End In "px", Standard: 1.5px */
+--rs-large-spacing: 3px; /* Spacing Between The Status And Avatar For Large Icons, Must End In "px", Standard: 3px */
+--rs-small-width: 2px; /* Width For The Small Status, Must End In "px", Standard: 2px */
+--rs-medium-width: 2px; /* Width For The Medium Status, Must End In "px", Standard: 2px */
+--rs-large-width: 4px; /* Width For The Large Status, Must End In "px", Standard: 4px */
+--rs-avatar-shape: 50%; /* Shape Of The Status, 50% For Circle, 100% For Square, Standard: 50% */
+--rs-online-color: #43b581; /* Status Color For People In "Online" Mode, Standard: #43b581 */
+--rs-idle-color:  rgba(255,162,0,1); /* Status Color For People In "Idle" Mode, Standard: rgba(255,162,0,1) */
+--rs-dnd-color: #f04747; /* Status Color For People In "Do Not Disturb" Mode, Standard: #f04747 */
+--rs-offline-color: #636b75; /* Status Color For People Who Are "Offline", Standard: #636b75 */
+--rs-streaming-color: #643da7; /* Status Color For People In "Streaming" Mode, Standard: #643da7 */
+--rs-invisible-color: var(--rs-offline-color); /* Status Color For People In "Invisible" Mode, Standard: var(--offline-color) */
+--rs-phone-color: var(--rs-online-color); /* Status Color For People In "Phone" Mode, Standard: var(--rs-online-color) */
+--rs-phone-visible: block; /* If The Phone Icon Should Be Visible, Standard: block */
+/*___________________________________________________________________________________________________________________________________*/
+--settingsmodalbackground: transparent; /* Background Of The Settings, (Cannot Be Custom), Standard: transparent */
+--settingsmodalwidth: 1050px; /* Settings Width, Must End In "px or vh", Standard: 1100px */
+--settingsmodalheight: 900px; /* Settings Height, Must End In "px or vh", Standard: 850px */
+/*___________________________________________________________________________________________________________________________________*/
+--text-color: #fff;
+--activity-bg: #627ee4;
+--spotify-bg: #1ed860;
+--twitch-bg: #6441a5;
+--bot-bg: #546cc4;
+--xbox-bg: #107C10;
+/*___________________________________________________________________________________________________________________________________*/
+}
