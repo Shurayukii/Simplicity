@@ -1,5 +1,5 @@
-# Current Release: 2.0.2:
-* Optimization Update Is Here!
+# Current Release: 2.0.3:
+* BetterDiscord Version Released
 
 ## Features
 - [X] Custom Background Images
