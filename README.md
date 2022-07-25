@@ -48,3 +48,20 @@ cd powercord/src/Powercord/themes && git clone https://github.com/Shurayukii/Sim
 cd AppData/Roaming/BetterDiscord/themes && git clone https://github.com/Shurayukii/Simplicity.git
 ```
 </details>
+
+<!-- Vizality -->
+<details>
+<summary><b>Vizality</b></summary>
+
+* *You may have to Delete the Old folder to be able to Update to a Newer version*
+
+* **Step 1:** Open **Command Prompt** / **Terminal**
+
+* **Step 2:** Paste the below code in your terminal:
+
+* **Step 3:** Move the "theme.scss" In the folder with your name back into the folder "themes"
+
+```bash
+cd vizality\addons\themes && git clone https://github.com/Shurayukii/Simplicity.git
+```
+</details>
