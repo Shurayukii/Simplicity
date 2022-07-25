@@ -30,7 +30,7 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 /* Background image. Falls back to accent color if invalid.
    To use an image on your computer, send it anywhere on Discord,
    then right-click and Copy Link, then paste it between the ()'s'. */
---dplus-background: url(https://cdn.discordapp.com/attachments/526356431897886721/997885076090146877/unknown.png);
+--dplus-background: url(https://www.dropbox.com/s/1000aahw103r8co/b.gif?dl=1);
 
 /* Accent color, used to decorate the UI with colors. */
 --dplus-accent-ui: #f79102;
