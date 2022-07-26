@@ -7,7 +7,7 @@
 - [X] BetterDiscord Version
 
 ## About Powercord EOL
-I've Found A New Discord Mod Client To Use Powercord Themes On So Support Is Back Up!
+I've Found A New Discord Mod Client To Use Powercord Themes On So Support Is Back Up, (It's Called "Kernel And Allows You To Use Both BD Stuff And Powercord Stuff At The Same Time)
 
 ## Installation
 
