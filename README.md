@@ -7,10 +7,7 @@
 - [X] BetterDiscord Version
 
 ## About Powercord EOL
-Now That Powercord Won't Update Anymore, Theme Support For Powercord Version Will Be **Limited** Until Powercord Finally Stops Working, This Means:
-
-* No More Powercord Theme Updates.
-* Bug Fixes Will Be Fixed **AFTER** BetterDiscord Bugs.
+I've Found A New Discord Mod Client To Use Powercord Themes On So Support Is Back Up!
 
 ## Installation
 
@@ -63,5 +60,22 @@ cd AppData/Roaming/BetterDiscord/themes && git clone https://github.com/Shurayuk
 
 ```bash
 cd vizality\addons\themes && git clone https://github.com/Shurayukii/Simplicity.git
+```
+</details>
+
+<!-- Kernel -->
+<details>
+<summary><b>Kernel</b></summary>
+
+* *You may have to Delete the Old folder to be able to Update to a Newer version*
+
+* **Step 1:** Open **Command Prompt** / **Terminal**
+
+* **Step 2:** Paste the below code in your terminal:
+
+* **Step 3:** Move the "theme.scss" In the folder with your name back into the folder "themes"
+
+```bash
+cd kernel\powercord\themes && git clone https://github.com/Shurayukii/Simplicity.git
 ```
 </details>
