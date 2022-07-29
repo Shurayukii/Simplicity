@@ -11,13 +11,20 @@
 @import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Facebook.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css"); /**/
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/edited.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/icons.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/tags.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/server.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/user.css"); /**/
 
 /* I've commented most of these values so you can change them yourself. */
 
 /* Font import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Fredoka+One&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Fredoka+One&family=Montserrat:wght@700&display=swap');
 
 /* This link loads fonts. Go to fonts.google.com and have a look!
 If there's any fonts you like, click them, select styles that are
@@ -38,7 +45,7 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 
 /* Fonts */
 --dplus-font-ui: 'Montserrat';
---dplus-font-body: 'Open Sans';
+--dplus-font-body: 'Noto Sans';
 --dplus-font-header: 'Fredoka One';
 
 /* Round corner sizes, measured in pixel radius
