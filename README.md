@@ -41,7 +41,7 @@ npm i -g pnpm
 
 - Then click on Install. Make sure both the toggles are set to "On".
 
-## Copy Paste This
+## Then Copy Paste This
 ```sh
 cd kernel
 cd packages
