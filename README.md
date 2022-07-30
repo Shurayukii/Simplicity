@@ -80,9 +80,6 @@ I assume you have already installed Kernel, bd-compat, pc-compat. I also assume 
 <details>
 <summary><b>Powercord (Use Canary)</b></summary>
 
-
-* *You may have to Delete the Old folder to be able to Update to a Newer version*
-
 * **Step 1:** Open **Command Prompt** / **Terminal**
 
 * **Step 2:** Paste the below code in your terminal:
