@@ -71,7 +71,7 @@ I assume you have already installed Kernel, bd-compat, pc-compat. I also assume 
 
 <https://openasar.dev>
 
-> If using with kernel, do remember to replace the in-use `app-original.asar` in your Discord install's folder with the `app.asar` downloaded for OA but rename it to `app-original.asar`.
+> If using with kernel, do remember to replace the in-use `app-original.asar` in your Discord install's folder with the `app.asar` downloaded but rename it to `app-original.asar`.
 
 </details>
 
