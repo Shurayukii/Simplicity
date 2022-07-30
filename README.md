@@ -25,8 +25,6 @@ npm i -g pnpm
 
 ### Recommended Method
 
-#### Windows
-
 - Download the latest [Kernel-Windows.exe](https://github.com/kernel-mod/installer-gui/releases/latest).
 
 - Make a folder "kernel" and place the downloaded installer in it.
@@ -61,6 +59,7 @@ git clone https://github.com/strencher-kernel/webpack
 git clone https://github.com/Henry-Hiles/kernel-package-downloader
 git clone https://github.com/slow/discord-utilities
 git clone https://github.com/strencher-kernel/no-sentry
+cd ..
 ```
 
 ## Step 2
