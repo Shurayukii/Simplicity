@@ -6,6 +6,16 @@
 - [X] Modern look of Discord
 - [X] Support For All Major Clients
 
+<!-- Kernel Help -->
+<details>
+<summary><b>Kernel Download Help</b></summary>
+
+```bash
+https://github.com/saint2706/Client-Modding-Guide/blob/main/PimpMyClient.md
+```
+
+</details>
+
 ## Installation
 
 <!-- Powercord -->
