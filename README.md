@@ -12,18 +12,12 @@
 
 ## Step 1
 
-A good base client. There is no elaboration. Only one choice, Kernel.
-
-**How install?????**
-
 You will need a recent [**node.js**](https://nodejs.org/) version, with [**pnpm**](https://pnpm.io) installed, regardless of the way you install Kernel.
 To do that, after installing [**node.js**](https://nodejs.org/) open a terminal and run:
 
 ```sh
 npm i -g pnpm
 ```
-
-### Recommended Method
 
 - Download the latest [Kernel-Windows.exe](https://github.com/kernel-mod/installer-gui/releases/latest).
 
@@ -65,8 +59,6 @@ cd ..
 ## Step 2
 
 I assume you have already installed Kernel, bd-compat, pc-compat. I also assume you have configured them and downloaded your favorite plugins and themes for them. An obvious concern is speed and performance issues due to so many compats. While Kernel manages to hold its own, things can always get better. That's where OpenAsar comes in.
-
-**How Install??**
 
 <https://openasar.dev>
 
