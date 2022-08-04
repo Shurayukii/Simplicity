@@ -118,3 +118,17 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && pause
 ```
 </details>
+
+---
+<!-- Credits -->
+<details>
+<summary><b></b></summary>
+
+## Credits For The Original Themes:
+
+* [Chatty Edit By zerol1ght](https://github.com/zerol1ght/chatty-edit)
+
+* [CreArts By CorrellanStoma](https://github.com/CreArts-Community/CreArts-Discord)
+
+* [Discord+ By Insta](https://betterdiscord.app/theme/Discord%2B) (BetterDiscord Theme)
+</details>
