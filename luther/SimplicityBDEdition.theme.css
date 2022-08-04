@@ -49,19 +49,19 @@
 .theme-light {
   --dplus-backdrop: url(https://i.kym-cdn.com/entries/icons/mobile/000/032/417/cover3.jpg);
   
-  --dplus-accent-color-hue: 320;
-  --dplus-accent-color-saturation: 60%;
-  --dplus-accent-color-lightness: 31%;
+  --dplus-accent-color-hue: 0;
+  --dplus-accent-color-saturation: 0%;
+  --dplus-accent-color-lightness: 0%;
   
-  --dplus-foreground-color-hue-base: 210;
-  --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-foreground-color-hue-base: 0;
+  --dplus-foreground-color-hue-links: 0;
+  --dplus-foreground-color-saturation-amount: 0;
+  --dplus-foreground-color-lightness-amount: 0;
 
-  --dplus-background-color-hue: 320;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-hue: 0;
+  --dplus-background-color-saturation-amount: 0;
+  --dplus-background-color-lightness-amount: 0;
+  --dplus-background-color-alpha: 0;
 }
 
 :root {
