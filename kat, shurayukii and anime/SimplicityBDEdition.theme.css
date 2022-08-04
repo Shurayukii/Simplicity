@@ -6,7 +6,7 @@
  * @description BD Edition (For Performance Use With Kernel on PTB Discord)
  * @source https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus-source.theme.css
 */
-@import url(//plusinsta.xyz/discord-plus/DiscordPlus-source.theme.css);
+@import url("https://plusinsta.xyz/discord-plus/src/DiscordPlus-source.theme.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
 @import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Facebook.css");
