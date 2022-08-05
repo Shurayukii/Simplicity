@@ -28,9 +28,9 @@
   --dplus-backdrop: url(https://www.dropbox.com/s/253e1j7tozpwdcg/demonslayer.gif?dl=1);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 320;
-  --dplus-accent-color-saturation: 60%;
-  --dplus-accent-color-lightness: 31%;
+  --dplus-accent-color-hue: 267;
+  --dplus-accent-color-saturation: 100%;
+  --dplus-accent-color-lightness: 50%;
 
 /* Foreground color: For things like text and icons. */
   --dplus-foreground-color-hue-base: 276;
