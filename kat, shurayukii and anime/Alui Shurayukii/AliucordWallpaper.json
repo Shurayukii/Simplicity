@@ -1,8 +1,8 @@
 {
     "manifest": {
-        "name": "吾心似明月",
-        "author": "wind",
-        "version": "0.1.3",
+        "name": "Simplicity Aluicord Edition,
+        "author": "Shurayukii",
+        "version": "2.0.4",
         "updater": "https:\/\/raw.githubusercontent.com\/Drownbywind\/Aliu-Themes\/main\/吾心似明月.json",
         "license": "EPL-2.0"
     },
