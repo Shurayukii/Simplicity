@@ -93,7 +93,7 @@ cd powercord/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.scss" In the folder with your name outside entierly of the "Simplicity" folder
+* **Step 3:** Move the "theme.css" In the folder with your name outside entierly of the "Simplicity" folder
 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
