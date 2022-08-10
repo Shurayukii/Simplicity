@@ -76,7 +76,7 @@ I assume you have already installed Kernel, bd-compat, pc-compat. I also assume 
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.scss" In the folder with your name out of the folder
+* **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside where you find it.
 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
@@ -93,7 +93,7 @@ cd powercord/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "SimplicityBDEdition.theme.css" In the folder with your name back into the folder "themes"
+* **Step 3:** Move the "theme.scss" In the folder with your name outside entierly of the "Simplicity" folder
 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
@@ -110,7 +110,7 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.scss" In the folder with your name back into the folder "themes"
+* **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside where you find it.
 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
