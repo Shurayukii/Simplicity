@@ -1,7 +1,7 @@
 {
     "version": "2.0.4",
     "author": "Shurayukii#6756 [ID: 354291548390948876]",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "theme": "theme.scss",
     "name": "Simplicity",
     "description": "Kernel Support, Use With Kernel on PTB Discord For The FPS"
