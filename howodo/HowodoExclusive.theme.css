@@ -1,0 +1,53 @@
+/**
+ * @name Howodo Exclusive Theme
+ * @author Kat's Slave
+ * @version 1.0
+ * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
+ * @source https://github.com/DiscordStyles/Slate/
+*/
+
+/*
+  Import Source Code 
+*/
+@import url("https://discordstyles.github.io/AdjustableServerWidth/base.css");
+@import url("https://discordstyles.github.io/Slate/dist/Slate.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
+@import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
+
+/*
+  Basic Variables
+  See available vars here: https://github.com/DiscordStyles/Slate/wiki
+*/
+:root {
+  /* Primary Colors */
+  --accent: 3, 102, 214;
+  --link-colour: 48, 144, 255;
+
+  /* Server List */
+  --server-icon-size: 48px;
+  --server-icon-spacing: 10px;
+  --server-container-padding: 10px;
+
+--rs-small-spacing: 0.5px; /* Spacing Between The Status And Avatar For Small Icons, Must End In "px", Standard: 0.5px */
+--rs-medium-spacing: 1.5px; /* Spacing Between The Status And Avatar For Medium Icons, Must End In "px", Standard: 1.5px */
+--rs-large-spacing: 3px; /* Spacing Between The Status And Avatar For Large Icons, Must End In "px", Standard: 3px */
+--rs-small-width: 2px; /* Width For The Small Status, Must End In "px", Standard: 2px */
+--rs-medium-width: 2px; /* Width For The Medium Status, Must End In "px", Standard: 2px */
+--rs-large-width: 4px; /* Width For The Large Status, Must End In "px", Standard: 4px */
+--rs-avatar-shape: 25%; /* Shape Of The Status, 50% For Circle, 100% For Square, Standard: 50% */
+--rs-online-color: #43b581; /* Status Color For People In "Online" Mode, Standard: #43b581 */
+--rs-idle-color:  rgba(255,162,0,1); /* Status Color For People In "Idle" Mode, Standard: rgba(255,162,0,1) */
+--rs-dnd-color: #f04747; /* Status Color For People In "Do Not Disturb" Mode, Standard: #f04747 */
+--rs-offline-color: #636b75; /* Status Color For People Who Are "Offline", Standard: #636b75 */
+--rs-streaming-color: #643da7; /* Status Color For People In "Streaming" Mode, Standard: #643da7 */
+--rs-invisible-color: var(--rs-offline-color); /* Status Color For People In "Invisible" Mode, Standard: var(--offline-color) */
+--rs-phone-color: var(--rs-online-color); /* Status Color For People In "Phone" Mode, Standard: var(--rs-online-color) */
+--rs-phone-visible: block; /* If The Phone Icon Should Be Visible, Standard: block */
+}
+
+/*
+  Place any Theme-specific Custom CSS Below here
+*/
