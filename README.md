@@ -1,5 +1,8 @@
-# Current Release: 2.0.4:
-* Kernel Support (Basically BetterDiscord x Powercord)
+# Current Powercord Release: 2.0.5:
+* Minor Changes
+
+# Current BetterDiscord Release: 2.0.4:
+* Release Stripped Version Of Powercord Version
 
 ## Features
 - [X] Custom Background Images
