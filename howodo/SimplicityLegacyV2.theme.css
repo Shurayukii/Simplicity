@@ -5,7 +5,6 @@
  * @description Simplicity Legacy V2 is basically the Powercord theme for BetterDiscord but no background cuz it wasn't supported back then
 */
 
-@import url("https://crearts-community.github.io/CreArts-Discord/skins/shape/slim/squircle.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/buttons.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
@@ -13,14 +12,12 @@
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/icons.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/tags.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/server.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/user.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /**/
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
 @import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /**/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/move/button/explore.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/move/button/add.css"); /**/
 
 :root {
 --rs-small-spacing: 0.5px; /* Spacing Between The Status And Avatar For Small Icons, Must End In "px", Standard: 0.5px */
