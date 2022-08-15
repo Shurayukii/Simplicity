@@ -1,7 +1,7 @@
 /**
  * @name Howodo Exclusive Theme
  * @author Kat's Slave
- * @version 1.0
+ * @version 1.0.1
  * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
  * @source https://github.com/DiscordStyles/Slate/
 */
@@ -30,7 +30,12 @@
   --server-icon-size: 48px;
   --server-icon-spacing: 10px;
   --server-container-padding: 10px;
-
+  --server-radius: 20px;
+  --border-radius: 28px;
+  --button-border-radius:var(--border-radius);
+  --chat-avatar-size: 40px;
+  --chat-font-size: 15px;
+  
 --rs-small-spacing: 0.5px; /* Spacing Between The Status And Avatar For Small Icons, Must End In "px", Standard: 0.5px */
 --rs-medium-spacing: 1.5px; /* Spacing Between The Status And Avatar For Medium Icons, Must End In "px", Standard: 1.5px */
 --rs-large-spacing: 3px; /* Spacing Between The Status And Avatar For Large Icons, Must End In "px", Standard: 3px */
