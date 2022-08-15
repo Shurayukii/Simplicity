@@ -115,10 +115,10 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 
 * **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside the folder with your name.
 
-(for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
+(for first time downloaders remove && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
-cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && pause
+cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && cd .. && cd.. && cd .. && cd kernel\betterdiscord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && pause
 ```
 </details>
 
