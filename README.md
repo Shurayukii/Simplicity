@@ -1,8 +1,8 @@
-# Current Powercord Release: 2.0.5:
+# Current Replugged Release: 2.0.5:
 * Minor Changes
 
 # Current BetterDiscord Release: 2.0.4:
-* Release Stripped Version Of Powercord Version
+* Release Stripped Version Of Replugged Version
 
 ## Features
 - [X] Custom Background Images
@@ -71,9 +71,9 @@ I assume you have already installed Kernel, bd-compat, pc-compat. I also assume 
 
 ## Installation
 
-<!-- Powercord -->
+<!-- Replugged -->
 <details>
-<summary><b>Powercord (Use Canary)</b></summary>
+<summary><b>Replugged (Use PTB)</b></summary>
 
 * **Step 1:** Open **Command Prompt** / **Terminal**
 
@@ -84,7 +84,7 @@ I assume you have already installed Kernel, bd-compat, pc-compat. I also assume 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
-cd powercord/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git
+cd replugged/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git
 ```
 </details>
 
