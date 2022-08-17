@@ -13,7 +13,7 @@
 <details>
 <summary><b>Kernel Download Help</b></summary>
 
-## Step 1
+ Step 1:
 
 You will need a recent [**node.js**](https://nodejs.org/) version, with [**pnpm**](https://pnpm.io) installed, regardless of the way you install Kernel.
 To do that, after installing [**node.js**](https://nodejs.org/) open a terminal and run:
@@ -36,7 +36,7 @@ npm i -g pnpm
 
 - Then click on Install. Make sure both the toggles are set to "On".
 
-## Then Copy Paste This
+Then Copy Paste This:
 ```sh
 cd kernel
 cd packages
@@ -59,7 +59,7 @@ git clone https://github.com/strencher-kernel/no-sentry
 cd ..
 ```
 
-## Step 2
+Step 2:
 
 I assume you have already installed Kernel, bd-compat, pc-compat. I also assume you have configured them and downloaded your favorite plugins and themes for them. An obvious concern is speed and performance issues due to so many compats. While Kernel manages to hold its own, things can always get better. That's where OpenAsar comes in.
 
