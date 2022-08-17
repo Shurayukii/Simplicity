@@ -133,5 +133,5 @@ cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.
 
 * [CreArts By CorrellanStoma](https://github.com/CreArts-Community/CreArts-Discord)
 
-* [Discord+ By Insta](https://betterdiscord.app/theme/Discord%2B) (BetterDiscord Theme)
+* [SoftX By Gibbu](https://github.com/DiscordStyles/SoftX) (BetterDiscord Theme)
 </details>
