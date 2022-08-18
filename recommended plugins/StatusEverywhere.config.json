@@ -1,0 +1,30 @@
+{
+	"currentVersionInfo": {
+		"version": "2.3.5",
+		"hasShownChangelog": true
+	},
+	"settings": {
+		"chatAvatarResolution": 40,
+		"chatRadialStatus": false,
+		"memberListAvatarResolution": 40,
+		"memberlistRadialStatus": false,
+		"friendsPageRadialStatus": false,
+		"userPopoutRadialStatus": false,
+		"dmAvatarResolution": 40,
+		"directMessagesRadialStatus": false,
+		"userProfileRadialStatus": false,
+		"guildSettingsAvatarResolution": 40,
+		"guildSettingsRadialStatus": false,
+		"voiceChatAvatarResolution": 16,
+		"accountSettingsRadialStatus": false,
+		"forceLoadStatus": false,
+		"showVoiceChatTyping": false,
+		"showGuildSettingsTyping": false,
+		"showUserProfileTyping": false,
+		"showDirectMessagesTyping": false,
+		"showUserPopoutTyping": false,
+		"showFriendsPageTyping": false,
+		"showMemberlistTyping": false,
+		"showChatTyping": false
+	}
+}
