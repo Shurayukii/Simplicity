@@ -1,0 +1,67 @@
+/* Compact User Area When Opened */
+
+#account.menu-1QACrS .item-1OdjEX::before {
+    content: unset; /*Context-Icons Fix*/
+  }
+  
+  #account.menu-1QACrS .headerTop-3GPUSF {
+    padding: 16px;
+  }
+  
+  #account.menu-1QACrS .avatarWrapper-eenWra {
+    left: unset;
+    right: 16px;
+  }
+  
+  #account.menu-1QACrS .avatar-2Vndt_ svg foreignObject,
+  #account.menu-1QACrS .avatarHint-k7pYop foreignObject {
+    mask: none;
+  }
+  
+  #account.menu-1QACrS .avatar-2Vndt_ svg rect {
+    display: none;
+  }
+  
+  #account.menu-1QACrS .avatar-2Vndt_ img,
+  #account.menu-1QACrS .avatarHint-k7pYop {
+    border-radius: 50%;
+  }
+  
+  #account.menu-1QACrS .profileBody-3QbfPe,
+  #account.menu-1QACrS .separator-1So4YB,
+  #account.menu-1QACrS .profileBadges-2pItdR,
+  #account.menu-1QACrS .copiableWrapper-2IFENG > div:not(.childWrapper-2wlp_S),
+  #account.menu-1QACrS .pencilContainer-18TrEJ,
+  #account.menu-1QACrS .description-1Dd2kv {
+    display: none;
+  }
+
+/* Compact User Area When Opened End */
+
+/* Shows Entire Banner In Settings */
+
+.settingsBanner-1eDJ5w {
+    height: 240px;
+}
+
+.userInfo-regn9W .avatar-3mTjvZ {
+    top: 220px !important;
+}
+
+/* Shows Entire Banner In Settings End */
+
+/* Collapsing Voice Panel */
+
+.container-1zzFcN .actionButtons-2vEOUh {
+    transition: 250ms ease-out;
+    padding-top: 0px;
+    opacity: 0;
+    height: 0;
+  }
+  .container-1zzFcN:hover .actionButtons-2vEOUh {
+    padding-top: 4px;
+    height: 36px;
+    opacity: 1;
+  }
+
+/* Collapsing Voice Panel End */
