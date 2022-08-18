@@ -1,43 +1,3 @@
-/* Compact User Area When Opened */
-/* 
-#account.menu-1QACrS .item-1OdjEX::before {
-    content: unset;
-  }
-  
-  #account.menu-1QACrS .headerTop-3GPUSF {
-    padding: 16px;
-  }
-  
-  #account.menu-1QACrS .avatarWrapper-eenWra {
-    left: unset;
-    right: 16px;
-  }
-  
-  #account.menu-1QACrS .avatar-2Vndt_ svg foreignObject,
-  #account.menu-1QACrS .avatarHint-k7pYop foreignObject {
-    mask: none;
-  }
-  
-  #account.menu-1QACrS .avatar-2Vndt_ svg rect {
-    display: none;
-  }
-  
-  #account.menu-1QACrS .avatar-2Vndt_ img,
-  #account.menu-1QACrS .avatarHint-k7pYop {
-    border-radius: 50%;
-  }
-  
-  #account.menu-1QACrS .profileBody-3QbfPe,
-  #account.menu-1QACrS .separator-1So4YB,
-  #account.menu-1QACrS .profileBadges-2pItdR,
-  #account.menu-1QACrS .copiableWrapper-2IFENG > div:not(.childWrapper-2wlp_S),
-  #account.menu-1QACrS .pencilContainer-18TrEJ,
-  #account.menu-1QACrS .description-1Dd2kv {
-    display: none;
-  } */
-
-/* Compact User Area When Opened End */
-
 /* Shows Entire Banner In Settings */
 
 .settingsBanner-1eDJ5w {
@@ -129,3 +89,19 @@
 }
 
 /* Pop-out Animation End */
+
+/* Better Compact User Area */
+
+#account.menu-1QACrS {
+  width: 220px;
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+  max-width: 220px;
+}
+
+#account.menu-1QACrS .profileBody-3QbfPe {
+  display:none;
+}
+
+/* Better Compact User Area End */
