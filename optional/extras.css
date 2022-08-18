@@ -1,7 +1,7 @@
 /* Compact User Area When Opened */
-
+/* 
 #account.menu-1QACrS .item-1OdjEX::before {
-    content: unset; /*Context-Icons Fix*/
+    content: unset;
   }
   
   #account.menu-1QACrS .headerTop-3GPUSF {
@@ -34,7 +34,7 @@
   #account.menu-1QACrS .pencilContainer-18TrEJ,
   #account.menu-1QACrS .description-1Dd2kv {
     display: none;
-  }
+  } */
 
 /* Compact User Area When Opened End */
 
@@ -128,4 +128,4 @@
   }
 }
 
-/* Pop-out Animation End */ 
+/* Pop-out Animation End */
