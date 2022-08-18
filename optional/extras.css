@@ -105,3 +105,85 @@
 }
 
 /* Better Compact User Area End */
+
+/* Collapse Folders Until Hover */
+
+.wrapper-38slSD:not(:hover)>ul {
+	display: grid;
+	height: 48px !important;
+	width: 48px;
+	padding: 6px;
+	grid-template: 1fr 1fr/1fr 1fr;
+	position: absolute;
+	top: 0;
+	left: 12px;
+	box-sizing: border-box;
+	pointer-events: none;
+	gap: 4px;
+	justify-content: center;
+	align-items: center;
+	animation: shrinkingAnimation 100ms ease-in;
+}
+.wrapper-38slSD>ul {
+	transition: height 150ms ease-out;
+}
+@keyframes shrinkingAnimation { from { position: relative; } }
+.wrapper-38slSD:not(:hover) .expandedFolderIconWrapper-3RwQpD>svg {
+	width: 100%;
+	height: 100%;
+	background: currentColor;
+	opacity: 0.4;
+}
+.wrapper-38slSD:not(:hover)>.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), .wrapper-38slSD:not(:hover)>.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi)~* :is(ul>.listItem-3SmSlK:nth-of-type(4)~*, .upperBadge-1V6Iyi) {
+	visibility: hidden;
+}
+.wrapper-38slSD:not(:hover)>ul :is(.wrapper-28eC3z, .svg-2zuE5p, .listItem-3SmSlK) {
+	position: static;
+	width: 16px !important;
+	height: 16px !important;
+	margin: 0;
+}
+.wrapper-38slSD:not(:hover)>ul>.listItem-3SmSlK .pill-2RsI5Q {
+	left: -12px;
+	visibility: visible;
+}
+.wrapper-38slSD:not(:hover)>ul>.listItem-3SmSlK .svg-2zuE5p>foreignObject {
+	mask: none;
+	border-radius: 50%;
+}
+.wrapper-38slSD:not(:hover)>.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi)~* .lowerBadge-3WTshO>.numberBadge-37OJ3S {
+	max-width: 16px;
+	color: transparent;
+	background: radial-gradient(white 30%, transparent 30%);
+	outline: 4px solid var(--background-tertiary);
+	visibility: visible;
+}
+
+/* Collapse Folders Until Hover End */
+
+/* Banner Color Around User Thingy Magig Don't Ask Me */
+
+.userPopout-2j1gM4{
+  transform:translate(0);
+  --border-width:1px;
+}
+
+.userPopout-2j1gM4 .banner-1YaD3N:after{
+  content:'';
+  position:fixed;
+  height:100%;
+  width:100%;
+  z-index:1;
+  border:var(--border-width) solid #0000;
+  background-color:inherit;
+  background-origin: border-box;
+  -webkit-mask: 
+      linear-gradient(#000 0 0) padding-box, 
+      linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  box-sizing:border-box;
+  border-radius:20px;
+  pointer-events:none;
+}
+
+/* Banner Color Around User Thingy Magig Don't Ask Me End */
