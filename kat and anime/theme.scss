@@ -4,8 +4,6 @@
 /* some pretty cool features not enabled by default :) */
 /*@import 'optional/extras'; /**/
 
-/* Optional Import */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css"); /**/
 /* Required Imports */
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/buttons.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css"); /**/
@@ -16,11 +14,9 @@
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /**/
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
-@import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/move/button/explore.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/move/button/add.css"); /**/
-
 
 :root {
 /* Only touch If you want to change your Background, Supports: .gif, .jpg, .png and probably .apng but not sure /**/
@@ -51,17 +47,6 @@
 --rs-invisible-color: var(--rs-offline-color); /* Status Color For People In "Invisible" Mode, Standard: var(--offline-color) */
 --rs-phone-color: var(--rs-online-color); /* Status Color For People In "Phone" Mode, Standard: var(--rs-online-color) */
 --rs-phone-visible: block; /* If The Phone Icon Should Be Visible, Standard: block */
-/*___________________________________________________________________________________________________________________________________*/
---settingsmodalbackground: transparent; /* Background Of The Settings, (Cannot Be Custom), Standard: transparent */
---settingsmodalwidth: 1050px; /* Settings Width, Must End In "px or vh", Standard: 1100px */
---settingsmodalheight: 900px; /* Settings Height, Must End In "px or vh", Standard: 850px */
-/*___________________________________________________________________________________________________________________________________*/
---text-color: #fff;
---activity-bg: #627ee4;
---spotify-bg: #1ed860;
---twitch-bg: #6441a5;
---bot-bg: #546cc4;
---xbox-bg: #107C10;
 /*___________________________________________________________________________________________________________________________________*/
   /* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
 --accentcolor:			74,12,145;
