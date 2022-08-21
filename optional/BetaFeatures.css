@@ -12,4 +12,27 @@
     display:none;
   }
   
-  /* Better Compact User Area End */
+/* Better Compact User Area End */
+
+/* Better Role Stuff */
+
+  .roleCircle-3K9O3d {
+    border-radius: 0%;
+    width: 2px;
+    height: 10px;
+    padding: 0;
+    margin: 0 4px;
+}
+.role-2TIOKu {
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--background-secondary-alt);
+    border-radius: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+}
+
+/* Better Role Stuff End */
