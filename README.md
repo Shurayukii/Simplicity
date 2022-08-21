@@ -79,7 +79,7 @@ I assume you have already installed Kernel, bd-compat, pc-compat. I also assume 
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside the folder with your name.
+* **Step 3:** Move the "theme.scss" In the folder "Main" back so that it's still inside "Simplicity" folder but not inside the folder "Main".
 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
@@ -96,7 +96,7 @@ cd replugged/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.css" In the folder with your name outside entierly of the "Simplicity" folder
+* **Step 3:** Move the "SimplicityBDEdition.theme.css" In the folder "Main" outside entierly of the "Simplicity" folder
 
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
@@ -113,7 +113,7 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside the folder with your name.
+* **Step 3:** Move the "theme.scss" In the folder "Main" back so that it's still inside "Simplicity" folder but not inside the folder "Main".
 
 (for first time downloaders remove && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
@@ -127,11 +127,6 @@ cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.
 <details>
 <summary><b></b></summary>
 
-## Credits For The Original Themes:
+## Credits For The Original Theme:
 
-* [Chatty Edit By zerol1ght](https://github.com/zerol1ght/chatty-edit)
-
-* [CreArts By CorrellanStoma](https://github.com/CreArts-Community/CreArts-Discord)
-
-* [SoftX By Gibbu](https://github.com/DiscordStyles/SoftX) (BetterDiscord Theme)
-</details>
+* [Fluent By Gibbu](https://github.com/DiscordStyles/Fluent)
