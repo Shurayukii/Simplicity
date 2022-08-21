@@ -1,8 +1,8 @@
-# Current Replugged Release: 2.0.6:
-* Working on Extras And Beta Features.
+# Current Replugged Release: 2.1.0:
+* Rework
 
-# Current BetterDiscord Release: 1.0.3:
-* Release Fixes I Guess?
+# Current BetterDiscord Release: 1.1.0:
+* Rework
 
 ## Features
 - [X] Custom Background Images
