@@ -1,8 +1,8 @@
 {
-    "version": "0.2.5",
+    "version": "2.0.6",
     "author": "Shurayukii#6756 [ID: 354291548390948876]",
     "license": "GPL-3.0 license",
     "theme": "theme.scss",
     "name": "Simplicity",
-    "description": "Minor Changes"
+    "description": "Working on Extras And Beta Features."
 }
