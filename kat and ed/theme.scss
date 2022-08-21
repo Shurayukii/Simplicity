@@ -1,8 +1,11 @@
 @import 'required/fixes'; /**/
 @import 'required/transparent'; /**/
 
-/* some pretty cool features not enabled by default :) */
-/*@import 'optional/extras'; /**/
+/* Some Pretty Cool Features Not Enabled By Default */
+/*@import 'optional/ExtraFeatures'; /**/
+
+/* Beta Features, Enable If You Want To Test Them Before I Move Them To Extras */
+/*@import 'optional/BetaFeatures'; /**/
 
 /* Required Imports */
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/alignment/left/buttons.css"); /**/

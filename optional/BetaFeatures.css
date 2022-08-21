@@ -1,0 +1,15 @@
+/* Better Compact User Area */
+
+#account.menu-1QACrS {
+    width: 220px;
+  }
+  
+  #account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+    max-width: 220px;
+  }
+  
+  #account.menu-1QACrS .profileBody-3QbfPe {
+    display:none;
+  }
+  
+  /* Better Compact User Area End */
