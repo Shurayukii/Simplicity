@@ -1,7 +1,7 @@
-# Current Replugged Release: 0.2.5:
+# Current Replugged Release: 2.0.6:
 * Minor Changes
 
-# Current BetterDiscord Release: 0.2.5:
+# Current BetterDiscord Release: 1.0.3:
 * Major Rework
 
 ## Features
