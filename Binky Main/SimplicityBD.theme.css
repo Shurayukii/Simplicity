@@ -10,6 +10,7 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
 
 :root {
   --accent: 255, 117, 31; /* The colour used throughout the app | R,G,B format | Default: 98, 205, 254 */
