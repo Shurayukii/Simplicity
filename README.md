@@ -8,6 +8,7 @@
 - [X] Custom Background Images
 - [X] Modern look of Discord
 - [X] Support For All Major Clients
+- [X] Support For Stylus: **NEW**
 
 <!-- Kernel Help -->
 <details>
@@ -121,7 +122,24 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && cd .. && cd.. && cd .. && cd kernel\betterdiscord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && pause
 ```
 </details>
+ 
+ <!-- Stylus -->
+<details>
+<summary><b>Stylus (Use The Web, Obviously)</b></summary>
 
+* **Step 1:** Open **Command Prompt** / **Terminal**
+
+* **Step 2:** Paste the below code in your terminal:
+
+* **Step 3:** Open the "user.theme.css" In the folder with your name, Copy the entire code within and paste it in a new Stylus Style and save :)
+
+(for first time downloaders remove && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
+
+```bash
+cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && cd .. && cd.. && cd .. && cd kernel\betterdiscord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && pause
+```
+</details>
+ 
 ---
 <!-- Credits -->
 <details>
@@ -133,5 +151,5 @@ cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.
 
 * [CreArts By CorrellanStoma](https://github.com/CreArts-Community/CreArts-Discord)
 
-* [SoftX By Gibbu](https://github.com/DiscordStyles/SoftX) (BetterDiscord Theme)
+* [SoftX By Gibbu](https://github.com/DiscordStyles/SoftX) (BetterDiscord Theme And Stylus Theme)
 </details>
