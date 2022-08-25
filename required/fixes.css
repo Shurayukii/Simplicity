@@ -103,8 +103,11 @@
 
 .wrapper-1NNaWG  {
 	background-color: rgba(0, 0, 0, 0.4) !important;
+	width: 225px !important;
+	border-radius: 18px !important;
 }
 
 .autocomplete-3NRXG8 {
 	background-color: rgba(0, 0, 0, 0.2) !important;
+	border-radius: 18px !important;
 }
