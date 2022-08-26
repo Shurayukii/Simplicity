@@ -65,23 +65,6 @@
 
 /* Better Jump To Present Button End */
 
-/* Pop-out Animation */ 
-
-.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
-  animation: custom-menu-animation 250ms ease;
-  transform-origin: top;
-}
-@keyframes custom-menu-animation {
-  0% {
-      transform: scaleY(0);
-  }
-  100% {
-      transform: scaleY(1);
-  }
-}
-
-/* Pop-out Animation End */
-
 /* Banner Color Around User Thingy Magig Don't Ask Me */
 
 .userPopout-2j1gM4{
