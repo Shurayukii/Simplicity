@@ -1,4 +1,4 @@
-.headerTop-3GPUSF, .body-2wLx-E, .footer-3naVBw, .inner-llGtyq, .button-12Fmur, .circleIconButton-1VxDrg  {
+.headerTop-3GPUSF, .body-2wLx-E, .footer-3naVBw, .inner-llGtyq, .button-12Fmur, .circleIconButton-1VxDrg, .contentWrapper-3vHNP2, .inspector-DFKXwB {
 	background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
@@ -18,10 +18,28 @@
 	margin-bottom: -25px !important;
 }
 
+.base-3bcbY3 {
+    position: absolute !important;
+    bottom: 50px !important;
+    left: 16px !important;
+    right: 16px !important;
+    height: 24px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    resize: none !important;
+    overflow-y: hidden !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    color: var(--text-normal) !important;
+}
+
 .typing-2J1mQU {
-	position: static !important;
-	margin-bottom: 30px !important;
-	margin-top: -20px !important;
+    overflow: visible !important;
 }
 
 .jumpToPresentBar-1cEnH0 {
@@ -94,4 +112,8 @@
 
 .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg, .winButtonMinMax-3RsPUg {
 	height: 25px !important;
+}
+
+.line-18uChy:last-child:after, .info-3pQQBb::after, .socialLinks-3ywLUf::after, .info-3pQQBb:before, .socialLinks-3ywLUf, .premiumTab-39eQzY, .item-3Xjb, .wrapper-3Zq_cJ, .guildFullFeatures-2jRvaJ, .colorPremium-vwmYZQ {
+	display: none !important;
 }
