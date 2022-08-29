@@ -26,7 +26,7 @@
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/user.css"); /**/
 :root {
 	/* SoftX variables */
-	--background-image: url('https://www.dropbox.com/s/m9erbidqlzyjpu6/Bump%20Of%20Chicken%20-%20Acacia%20%5BPokemon%20Gotcha%21%5D%20%28Jetdarc%208-bit_Chiptune%20Remix%29.gif?dl=1'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--background-image: url('https://www.dropbox.com/s/m9erbidqlzyjpu6/pokemon.gif?dl=1'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
 
 	--accent: 201,84,255; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
