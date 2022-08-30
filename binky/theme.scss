@@ -20,6 +20,7 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/move/button/explore.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/move/button/add.css"); /**/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
 
 :root {
 /* Only touch If you want to change your Background, Supports: .gif, .jpg, .png and probably .apng but not sure /**/
@@ -55,5 +56,23 @@
 --accentcolor:			255,114,27;
 --accentcolor2:			255,116,0;
 --linkcolor:			255,167,94;
+/*___________________________________________________________________________________________________________________________________*/
+--chat-bubble: 1;
+
+--chat-bubble-background-color: var(--background-secondary);
+--chat-bubble-border-color: var(--background-secondary-alt);
+--chat-bubble-code-background-color: var(--background-secondary-alt);
+
+--chat-bubble-max-width: 90%;
+--chat-bubble-border-radius: 15px;
+
+--chat-bubble-box-shadow-h-offset: 0;
+--chat-bubble-box-shadow-v-offset: 15px;
+--chat-bubble-box-shadow-blur: 35px;
+
+--chat-bubble-box-shadow-color-h: 0;
+--chat-bubble-box-shadow-color-s: 0%;
+--chat-bubble-box-shadow-color-l: 0%;
+--chat-bubble-box-shadow-color-a: 0.6;
 /*___________________________________________________________________________________________________________________________________*/
 }
