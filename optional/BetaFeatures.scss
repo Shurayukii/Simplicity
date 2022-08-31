@@ -13,3 +13,45 @@
   }
   
 /* Better Compact User Area End */
+
+/* Better Unreads */
+
+.sidebar-1tnWFu .unreadBar-elBRZx {
+  width: 102px;
+  margin: auto;
+  text-transform: capitalize;
+  color: var(--text-normal);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx:not(.mention-3XBnnZ) span:before {
+  margin: -2px 8px 0px 6px;
+  float: left;
+}
+
+.sidebar-1tnWFu
+  .unreadTop-1DJtGv
+  .unreadBar-elBRZx:not(.mention-3XBnnZ)
+  span:before {
+  content: url("https://i.imgur.com/xN4NFmi.png");
+}
+
+.sidebar-1tnWFu
+  .unreadBottom-3Ojk6R
+  .unreadBar-elBRZx:not(.mention-3XBnnZ)
+  span:before {
+  content: url("https://i.imgur.com/H9iG4mp.png");
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx.mention-3XBnnZ span:before {
+  content: " ";
+  font-size: 0px;
+  background-color: var(--status-danger);
+  float: left;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  margin: 4px 3px auto auto;
+}
+
+/* Better Unreads End */
