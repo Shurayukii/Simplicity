@@ -1,0 +1,168 @@
+// general
+button {
+    border-radius: var(--chattyBorderRadius) !important;
+}
+// green
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+    background: #2f8f644a;
+}
+.lookOutlined-3sRXeN.colorYellow-2JqYwt {
+    background: #d892194a;
+}
+.lookOutlined-3sRXeN.colorBlack-1jwPVL {
+    background: #0404054a;
+}
+.lookOutlined-3sRXeN.colorGrey-2DXtkV {
+    background: #747f8d4a;
+}
+.lookOutlined-3sRXeN.colorLink-35jkBc {
+    background: #00b0f44a;
+}
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+    background: #ffffff4a;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    background: #f047474a;
+}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #ffffff4a;
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    background: #7289da4a;
+}
+.backdrop-2ByYRN {
+    background: #00000055 !important;
+    opacity: 1 !important;
+}
+.inner-3je51t {
+    background: none !important;
+}
+.root-SR8cQa {
+    background: none !important;
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.8);
+    border-radius: var(--chattyBorderRadius);
+}
+.inner-3je51t .body-3ND3kc {
+    background: #00000066;
+}
+.topSectionSpotify-1lI0-P {
+    background: #1db954a8;
+}
+.connectedAccount-36nQx7 {
+    border: none;
+    background: #00000066;
+    border-radius: var(--chattyBorderRadius);
+}
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border-top: none;
+}
+.topSectionNormal-2-vo2m {
+    background: #000000a8;
+}
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+    border-top: none;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background: #00000066;
+    border-radius: var(--chattyBorderRadius);
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    background: #1db954a8;
+    color: #fff;
+    border-radius: var(--chattyBorderRadius);
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+    background: #1db954ff;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background: #7289daa8;
+}
+.topSectionPlaying-1J5E4n {
+    background: #7289daa8;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background: #7289daa8;
+    border-radius: var(--chattyBorderRadius);
+    color: #fff;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background: #7289daff;
+}
+.topSectionStreaming-1Tpf5X {
+    background: #593695a8;
+}
+.buttonInvertedPurple-WtBglX {
+    border-radius: var(--chattyBorderRadius);
+    background: #593695a8;
+    color: #fff;
+}
+.buttonInvertedPurple-WtBglX:hover {
+    background: #593695ff;
+}
+.topSectionStreaming-1Tpf5X .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #593695a8 !important;
+}
+.topSectionStreaming-1Tpf5X .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #593695ff !important;
+}
+.topSectionPlaying-1J5E4n .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #7289daa8 !important;
+}
+.topSectionPlaying-1J5E4n .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #7289daff !important;
+}
+.tabBarContainer-1s1u-z {
+    border-top: none;
+    height: 40px;
+}
+.tabBar-2MuP6- {
+    height: 40px;
+}
+.layers-OrUESM {
+    .layer-86YKbF {
+        background: transparent;
+        .standardSidebarView-3F1I7i {
+            background: transparent;
+            margin: var(--chattyPadding);
+            .sidebarRegion-1VBisG {
+                margin-right: var(--chattyPadding);
+                flex: 0 0 218px;
+                border-radius: var(--chattyBorderRadius);
+                overflow: hidden;
+                background: transparent;
+                .sidebar-nqHbhN {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    background: transparent;
+                }
+                .sidebarRegionScroller-FXiQOh {
+                    background: rgba(0,0,0,0.6);
+                }
+            }
+            .contentRegion-3HkfJJ {
+                width: 100px;
+                background: transparent;
+                border-radius: var(--chattyBorderRadius);
+                overflow: hidden;
+                .contentRegionScroller-2_GT_N {
+                    background: rgba(0,0,0,0.6);
+                    .contentColumn-1C7as6  {
+                        max-width: 100%;
+                        .background-3d_SjE {
+                            border-radius: var(--chattyBorderRadius);
+                            background: rgba(0,0,0,0.3);
+                            padding: 20px;
+                            .avatarUploaderInner-yEhTv5 {
+                                border-radius: var(--chattyBorderRadius);
+                            }
+                            .fieldList-in8WkP {
+                                border-radius: var(--chattyBorderRadius);
+                                background: rgba(0,0,0,0.3);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
