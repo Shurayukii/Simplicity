@@ -1,8 +1,8 @@
-.scroller-1ox3I2, .header-3OsQeK, .container-YkUktl, .scroller-WSmht3, .searchBar-3TnChZ, .channelTextArea-1FufC0 {
+.scroller-1ox3I2, .header-3OsQeK, .container-YkUktl, .scroller-WSmht3, .searchBar-3TnChZ, .channelTextArea-1FufC0, .scrollableContainer-15eg7h, .contentWrapper-3vHNP2, .messageGroupWrapper-1jf_7C, .header-1w9Q93, .channelHeader-DFRX8q, .messageContainer-3VTXBC, .grid-1aWVsE, .list-2u03C-, .wrapper-1NNaWG {
 	background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.sidebarRegionScroller-FXiQOh {
+.sidebarRegionScroller-FXiQOh, .searchBarComponent-3N7dCG {
 	background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -21,4 +21,17 @@
 
 .barButtonBase-Sk2mdB {
 	margin-bottom: 15px !important;
+}
+
+.unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3 {
+	display: none !important;
+}
+
+.messagesPopoutWrap-3zryHW {
+	max-height: 750px !important;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.autocomplete-3NRXG8 {
+	background-color: rgba(0, 0, 0, 0.7) !important;
 }
