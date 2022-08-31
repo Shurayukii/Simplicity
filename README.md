@@ -1,5 +1,5 @@
-# Current Replugged Release: 3.0:
-* 3.0 Release
+# Current Replugged Release: 3.0.1:
+* Minor addons and changes
 
 # Current BetterDiscord Release: 1.0.3:
 * Release Fixes I Guess?
