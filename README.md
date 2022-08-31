@@ -1,5 +1,5 @@
-# Current Replugged Release: 2.0.6:
-* Working on Extras And Beta Features.
+# Current Replugged Release: 3.0:
+* 3.0 Release
 
 # Current BetterDiscord Release: 1.0.3:
 * Release Fixes I Guess?
