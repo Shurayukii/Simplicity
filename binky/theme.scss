@@ -1,20 +1,10 @@
-@import 'required/fixes'; /**/
-@import 'required/transparent'; /**/
-@import 'required/addons'; /**/
+@import 'required/fixes';
+@import 'required/transparent';
+@import 'required/imports';
+@import 'required/addons';
 
 /* Beta Features, Enable If You Want To Test Them Before I Move Them Here */
 @import 'optional/BetaFeatures'; /**/
-
-/* Required Imports */
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css");
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css");
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/edited.css");
-@import url("https://lavender-discord.github.io/IconsaxDiscord/theme.css");
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css");
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
-@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
 
 :root {
 /* Only touch If you want to change your Background, Supports: .gif, .jpg, .png and probably .apng but not sure /**/
