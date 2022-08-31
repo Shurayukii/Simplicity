@@ -149,7 +149,5 @@ cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.
 
 * [Chatty Edit By zerol1ght](https://github.com/zerol1ght/chatty-edit)
 
-* [CreArts By CorrellanStoma](https://github.com/CreArts-Community/CreArts-Discord)
-
 * [SoftX By Gibbu](https://github.com/DiscordStyles/SoftX) (BetterDiscord Theme And Stylus Theme)
 </details>
