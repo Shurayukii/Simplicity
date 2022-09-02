@@ -8,7 +8,7 @@
 - [X] Custom Background Images
 - [X] Modern look of Discord
 - [X] Support For All Major Clients
-- [X] Support For Stylus: **NEW**
+- [X] Support For Stylus (The Web Discord)
 
 <!-- Kernel Help -->
 <details>
