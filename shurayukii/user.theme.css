@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Simplicity Stylus Edition
 @description 1:1 port of BetterDiscord theme to the Web
-@version 1.0.4
+@version 1.0.3
 @namespace Shurayukii#6756
 @author Shurayukii (https://github.com/Shurayukii)
 @homepageURL https://github.com/Shurayukii/Simplicity
@@ -27,7 +27,7 @@
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/tags.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/server.css"); /**/
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/user.css"); /**/
-        
+
 /* Extra Imports */
 
 @import url("https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css");
@@ -140,6 +140,23 @@
 
 /* Better Jump To Present Button End */
 
+/* Pop-out Animation */ 
+
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+@keyframes custom-menu-animation {
+  0% {
+      transform: scaleY(0);
+  }
+  100% {
+      transform: scaleY(1);
+  }
+}
+
+/* Pop-out Animation End */
+
 /* Banner Color Around User Thingy Magig Don't Ask Me */
 
 .userPopout-2j1gM4{
@@ -161,7 +178,7 @@
       linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   box-sizing:border-box;
-  border-radius:4px;
+  border-radius:4.5px;
   pointer-events:none;
 }
 
@@ -173,51 +190,94 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 
 /* Old Hypesquad Icons End */
 
-/* Better Role Stuff
-
-  .roleCircle-3K9O3d {
-    border-radius: 0%;
-    width: 2px;
-    height: 10px;
-    padding: 0;
-    margin: 0 4px;
-}
-.role-2TIOKu {
-    font-size: 12px;
-    font-weight: 500;
-    background: var(--background-secondary-alt);
-    border-radius: 0px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 22px;
-    margin: 0 4px 4px 0;
-    padding: 4px;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-Better Role Stuff End */
-
-/* Show Full Description */
-
-.lineClamp2Plus-2RYGV2 {
-  -webkit-line-clamp: unset !important;
-}
-
-/* Show Full Description End */
-
-/* Better Compact User Area */
+/* Compact User Popout */
 
 #account.menu-1QACrS {
     width: 220px;
-  }
-  
-  #account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
     max-width: 220px;
-  }
-  
-  #account.menu-1QACrS .profileBody-3QbfPe {
+}
+
+#account.menu-1QACrS .profileGroup-1yKk23,
+#account.menu-1QACrS .profileGroup-1yKk23 + .separator-1So4YB {
     display:none;
-  }
+}
   
-/* Better Compact User Area End */
+/* Compact User Popout End */
+
+/* Better User Area */
+
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+  opacity: 0% !important;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+  opacity: 100% !important;
+  width: 32px;
+}
+
+/* Better User Area End */
+
+/* Nicer Links (Specific Links Only) */
+
+[href*="youtu.be"],
+[href*="youtube.com"] {
+    color: #C4302B !important;
+    font-weight: 700;
+}
+
+[href*="twitch.tv"] {
+    color: #B700FF !important;
+    font-weight: 700;
+}
+
+[href*="spotify.com"] {
+    color:rgb(19, 185, 4) !important; 
+    font-weight: 700;
+}
+
+[href*="discord.com/channels/"] {
+    color: #5865F2 !important;
+}
+
+[href*="discord.com/channels/"]::before {
+    content:'Jump to Message: ';
+    font-size:16px;
+    font-weight:700;
+    color: #5865F2;
+}
+
+[href*="reddit.com"] {
+    color: #FF4500 !important; 
+    font-weight: 700;
+}
+
+[href*="instagram.com/"]{
+    background: -webkit-linear-gradient(80deg, rgb(255, 238, 0), rgb(255, 157, 11), #B700FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+} 
+
+[href*="twitter.com/"]{
+    color: #00ACEE !important;
+    font-weight: 700;
+}
+
+[href*="discord.com/"],
+[href*="discord.gg/"] {
+    color:#5865F2 !important;
+    font-weight: 700;
+}
+
+[href*="github.com"] {
+    color: #00F0A8 !important;
+    font-weight: 700;
+}
+
+/* Nicer Links (Specific Links Only) End */
 }
