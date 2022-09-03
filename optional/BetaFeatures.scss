@@ -29,3 +29,62 @@
 }
 
 /* Better User Area End */
+
+/* Nicer Links (Specific Links Only) */
+
+[href*="youtu.be"],
+[href*="youtube.com"] {
+    color: #C4302B !important;
+    font-weight: 700;
+}
+
+[href*="twitch.tv"] {
+    color: #B700FF !important;
+    font-weight: 700;
+}
+
+[href*="spotify.com"] {
+    color:rgb(19, 185, 4) !important; 
+    font-weight: 700;
+}
+
+[href*="discord.com/channels/"] {
+    color: #5865F2 !important;
+}
+
+[href*="discord.com/channels/"]::before {
+    content:'Jump to Message: ';
+    font-size:16px;
+    font-weight:700;
+    color: #5865F2;
+}
+
+[href*="reddit.com"] {
+    color: #FF4500 !important; 
+    font-weight: 700;
+}
+
+[href*="instagram.com/"]{
+    background: -webkit-linear-gradient(80deg, rgb(255, 238, 0), rgb(255, 157, 11), #B700FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+} 
+
+[href*="twitter.com/"]{
+    color: #00ACEE !important;
+    font-weight: 700;
+}
+
+[href*="discord.com/"],
+[href*="discord.gg/"] {
+    color:#5865F2 !important;
+    font-weight: 700;
+}
+
+[href*="github.com"] {
+    color: #00F0A8 !important;
+    font-weight: 700;
+}
+
+/* Nicer Links (Specific Links Only) End */
