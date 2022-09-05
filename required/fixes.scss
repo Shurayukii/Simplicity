@@ -30,16 +30,21 @@
 .messagesPopoutWrap-3zryHW {
 	max-height: 750px !important;
 	background-color: rgba(0, 0, 0, 0.5) !important;
+	border-radius: 18px !important;
 }
 
-.autocomplete-3NRXG8, .animatorRight-xAUgTY, .animatorLeft-3yvG13, .pc-notice-container {
+.autocomplete-3NRXG8, .animatorRight-xAUgTY, .animatorLeft-3yvG13, .pc-notice-container, .userPopoutInner-PA9zkU .userPopoutInnerWithoutTheme-23vLID {
 	background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
-.animatorRight-xAUgTY, .animatorLeft-3yvG13, .pageWrapper-2PwDoS {
-	border-radius: 22px !important;
+.animatorRight-xAUgTY, .animatorLeft-3yvG13, .pageWrapper-2PwDoS, .chat-2ZfjoI, .sidebar-1tnWFu {
+	border-radius: 18px !important;
 }
 
 .inputDefault-3FGxgL {
 	border-radius: 5px !important;
+}
+
+.avatarHint-2g3Mcd {
+	display: none !important; /* temporary solution */
 }
