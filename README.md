@@ -1,5 +1,5 @@
-# Current Replugged Release: 3.0.1:
-* Minor addons and changes
+# Current Replugged Release: 3.0.2:
+* Minor Fixes And Changes or smth idk i just add stuff and it works.
 
 # Current BetterDiscord Release: 1.0.3:
 * Release Fixes I Guess?
