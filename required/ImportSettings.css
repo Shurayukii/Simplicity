@@ -25,11 +25,6 @@
 --rs-phone-color: var(--rs-online-color); /* Status Color For People In "Phone" Mode, Standard: var(--rs-online-color) */
 --rs-phone-visible: block; /* If The Phone Icon Should Be Visible, Standard: block */
 /*___________________________________________________________________________________________________________________________________*/
-  /* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
---accentcolor:			74,12,145;
---accentcolor2:			201,84,255;
---linkcolor:			236,115,255;
-/*___________________________________________________________________________________________________________________________________*/
   --chat-bubble: 1;
 
   --chat-bubble-background-color: var(--background-secondary);
