@@ -1,5 +1,6 @@
 /* Extra Imports */
 
+@import url("https://snare-hawk.github.io/snare-CSS/profile-skin-experiment-snippet.css");
 @import url("https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css");
 @import url("https://lavender-discord.github.io/Lavender/modules/addons/context-icons.css");
 
@@ -152,3 +153,18 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml
 }
 
 /* Nicer Links (Specific Links Only) End */
+
+/* Better User Area */
+
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+  opacity: 0% !important;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+  opacity: 100% !important;
+  width: 32px;
+}
+
+/* Better User Area End */
