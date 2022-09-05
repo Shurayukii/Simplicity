@@ -1,37 +1,3 @@
 /* Beta Imports */
 
-@import url("https://snare-hawk.github.io/snare-CSS/profile-skin-experiment-snippet.css");
-
 /* Beta Imports End */
-
-/* Compact User Popout */
-
-#account.menu-1QACrS {
-    width: 220px;
-}
-
-#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
-    max-width: 220px;
-}
-
-#account.menu-1QACrS .profileGroup-1yKk23,
-#account.menu-1QACrS .profileGroup-1yKk23 + .separator-1So4YB {
-    display:none;
-}
-  
-/* Compact User Popout End */
-
-/* Better User Area */
-
-.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
-  opacity: 0% !important;
-  width: 0px;
-  transition: all 0.2s ease-in-out;
-}
-
-.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
-  opacity: 100% !important;
-  width: 32px;
-}
-
-/* Better User Area End */
