@@ -2,14 +2,14 @@
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 
---chattyBorderRadius: 18px;
---chattyPadding: 8px;
---chattyBlur: 0px;
---interactive-muted: #ff5e00;
---background-primary: rgba(0, 0, 0, 0.5);
---background-secondary: rgba(0, 0, 0, 0.7);
---background-secondary-alt: rgba(0, 0, 0, 0.3);
---background-tertiary: rgba(39, 39, 39, 0.9);
+--chattyBorderRadius: 18px; // border radius for most things
+--chattyPadding: 8px; // padding for most things
+--chattyBlur: 0px; // background blur
+--interactive-muted: #ff5e00; // muted channel colors
+--background-primary: rgba(0, 0, 0, 0.5); // primary background color and opacity
+--background-secondary: rgba(0, 0, 0, 0.7); // secondary background color and opacity
+--background-secondary-alt: rgba(0, 0, 0, 0.3); // secondary secondary background color and opacity
+--background-tertiary: rgba(39, 39, 39, 0.9); // tertiarty background color and opacity
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 
@@ -32,18 +32,14 @@
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 
   --chat-bubble: 1; // does kinda sus stuff, keep it at 1
-
   --chat-bubble-background-color: var(--background-secondary); // background color
   --chat-bubble-border-color: var(--background-secondary-alt); // background border color
   --chat-bubble-code-background-color: var(--background-secondary-alt); // background code color
-
   --chat-bubble-max-width: 90%; // max width
   --chat-bubble-border-radius: 18px; // border radius
-
   --chat-bubble-box-shadow-h-offset: 10px; // shadow offset (h)
-  --chat-bubble-box-shadow-v-offset: 10px; // shadow offset (v)
+  --chat-bubble-box-shadow-v-offset: 15px; // shadow offset (v)
   --chat-bubble-box-shadow-blur: 15px; // shadow blur
-  
   --chat-bubble-box-shadow-color-h: 0; // shadow color (h)
   --chat-bubble-box-shadow-color-s: 0%; // shadow color (s)
   --chat-bubble-box-shadow-color-l: 0%; // shadow color (l)
