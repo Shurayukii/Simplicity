@@ -1,0 +1,13 @@
+@import 'required/Fixes';
+@import 'required/Imports';
+@import 'required/ImportSettings';
+@import 'optional/ExtraFeatures';
+@import 'required/Transparent';
+
+/* Beta Features, Enable If You Want To Test Them Before I Move Them Here */
+/*@import 'optional/BetaFeatures'; /**/
+
+:root {
+/* Only touch If you want to change your Background, Supports: .gif, .jpg, .png and probably .apng but not sure /**/
+--chattyBackgroundImage: url(https://www.dropbox.com/s/253e1j7tozpwdcg/demonslayer.gif?dl=1);
+}

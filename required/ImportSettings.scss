@@ -1,0 +1,60 @@
+:root {
+
+//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
+
+--chattyBorderRadius: 18px;
+--chattyPadding: 8px;
+--chattyBlur: 0px;
+--interactive-muted: #ff5e00;
+--background-primary: rgba(0, 0, 0, 0.5);
+--background-secondary: rgba(0, 0, 0, 0.7);
+--background-secondary-alt: rgba(0, 0, 0, 0.3);
+--background-tertiary: rgba(39, 39, 39, 0.9);
+
+//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
+
+--rs-small-spacing: 0px; // spacing for small status
+--rs-medium-spacing: 0px; // spacing for medium status
+--rs-large-spacing: 0px; // spacing for large status
+--rs-small-width: 2.5px; // width for small status
+--rs-medium-width: 3px; // width for the medium status
+--rs-large-width: 5px; // width for the large status
+--rs-avatar-shape: 25%; // avatar shape, 51% or more does nothing
+--rs-online-color: #33ce88; // online color
+--rs-idle-color:  #f5861f; // idle color
+--rs-dnd-color: #ff4040; // do not disturb color
+--rs-offline-color: #727171; // offline color
+--rs-streaming-color: #643da7; // streaming color
+--rs-invisible-color: var(--rs-offline-color); // invisible color
+--rs-phone-color: var(--rs-online-color); // phone icon color
+--rs-phone-visible: visible; // phone icon visibility
+
+//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
+
+  --chat-bubble: 1; // does kinda sus stuff, keep it at 1
+
+  --chat-bubble-background-color: var(--background-secondary); // background color
+  --chat-bubble-border-color: var(--background-secondary-alt); // background border color
+  --chat-bubble-code-background-color: var(--background-secondary-alt); // background code color
+
+  --chat-bubble-max-width: 90%; // max width
+  --chat-bubble-border-radius: 18px; // border radius
+
+  --chat-bubble-box-shadow-h-offset: 10px; // shadow offset (h)
+  --chat-bubble-box-shadow-v-offset: 10px; // shadow offset (v)
+  --chat-bubble-box-shadow-blur: 15px; // shadow blur
+  
+  --chat-bubble-box-shadow-color-h: 0; // shadow color (h)
+  --chat-bubble-box-shadow-color-s: 0%; // shadow color (s)
+  --chat-bubble-box-shadow-color-l: 0%; // shadow color (l)
+  --chat-bubble-box-shadow-color-a: 1; // shadow color (a)
+
+//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
+
+--columns:			2; // amount of columns
+--guildsize:		45; // icon size in pixels
+--guildgap:			2.5; // gap inbetween servers
+--aligndms:			1; // align dms, 0 no, 1 yes
+
+//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
+}
