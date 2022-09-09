@@ -6,8 +6,8 @@
 --chattyPadding: 8px; // padding for most things
 --chattyBlur: 0px; // background blur
 --interactive-muted: #ff5e00; // muted channel colors
---background-primary: rgba(0, 0, 0, 0.5); // primary background color and opacity
---background-secondary: rgba(0, 0, 0, 0.7); // secondary background color and opacity
+--background-primary: rgba(0, 0, 0, 0.4); // primary background color and opacity
+--background-secondary: rgba(0, 0, 0, 0.6); // secondary background color and opacity
 --background-secondary-alt: rgba(0, 0, 0, 0.3); // secondary secondary background color and opacity
 --background-tertiary: rgba(39, 39, 39, 0.9); // tertiarty background color and opacity
 
@@ -43,14 +43,14 @@
   --chat-bubble-box-shadow-color-h: 0; // shadow color (h)
   --chat-bubble-box-shadow-color-s: 0%; // shadow color (s)
   --chat-bubble-box-shadow-color-l: 0%; // shadow color (l)
-  --chat-bubble-box-shadow-color-a: 1; // shadow color (a)
+  --chat-bubble-box-shadow-color-a: 0.8; // shadow color (a)
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 
 --columns: 2; // amount of columns
 --guildsize: 45; // icon size in pixels
---guildgap:	2.5; // gap inbetween servers
---aligndms:	1; // align dms, 0 no, 1 yes
+--guildgap: 2.5; // gap inbetween servers
+--aligndms: 1; // align dms, 0 no, 1 yes
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 }
