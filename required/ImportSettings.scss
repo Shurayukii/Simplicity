@@ -39,7 +39,7 @@
   --chat-bubble-border-radius: 18px; // border radius
   --chat-bubble-box-shadow-h-offset: 10px; // shadow offset (h)
   --chat-bubble-box-shadow-v-offset: 15px; // shadow offset (v)
-  --chat-bubble-box-shadow-blur: 15px; // shadow blur
+  --chat-bubble-box-shadow-blur: 20px; // shadow blur
   --chat-bubble-box-shadow-color-h: 0; // shadow color (h)
   --chat-bubble-box-shadow-color-s: 0%; // shadow color (s)
   --chat-bubble-box-shadow-color-l: 0%; // shadow color (l)
@@ -47,10 +47,10 @@
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 
---columns:			2; // amount of columns
---guildsize:		45; // icon size in pixels
---guildgap:			2.5; // gap inbetween servers
---aligndms:			1; // align dms, 0 no, 1 yes
+--columns: 2; // amount of columns
+--guildsize: 45; // icon size in pixels
+--guildgap:	2.5; // gap inbetween servers
+--aligndms:	1; // align dms, 0 no, 1 yes
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
 }
