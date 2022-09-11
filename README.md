@@ -1,4 +1,4 @@
-# Current Replugged Release: 3.0.2:
+# Current Replugged/Kernel Release: 3.0.3:
 * Minor Fixes And Changes or smth idk i just add stuff and it works.
 
 # Current BetterDiscord Release: 1.0.3:
