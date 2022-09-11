@@ -1,11 +1,11 @@
 @import 'required/Fixes';
 @import 'required/Imports';
 @import 'required/ImportSettings';
-@import 'optional/ExtraFeatures';
+@import 'optional/Snippets';
 @import 'required/Transparent';
 
 /* Beta Features, Enable If You Want To Test Them Before I Move Them To ExtraFeatures */
-@import 'optional/BetaFeatures'; /**/
+@import 'optional/BetaSnippets'; /**/
 
 :root {
 /* Only touch If you want to change your Background, Supports: .gif, .jpg, .png and probably .apng but not sure */
