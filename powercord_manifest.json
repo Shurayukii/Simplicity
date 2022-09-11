@@ -1,8 +1,8 @@
 {
-    "version": "3.0.2",
+    "version": "3.0.3",
     "author": "Shurayukii#6756 [ID: 354291548390948876]",
     "license": "CC0 1.0 Universal",
     "theme": "theme.scss",
     "name": "Simplicity",
-    "description": "Simplicity Now In Version 3.0(.2)!"
+    "description": "Fixed a bug that broke the Theme!"
 }
