@@ -1,5 +1,5 @@
 # Current Replugged/Kernel Release: 3.0.3:
-* Minor Fixes And Changes or smth idk i just add stuff and it works.
+* Fixed a bug that could have been avoided if i was not stupid
 
 # Current BetterDiscord Release: 1.0.3:
 * Release Fixes I Guess?
