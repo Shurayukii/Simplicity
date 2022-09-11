@@ -105,5 +105,5 @@ cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.
 
 * [Chatty Edit By zerol1ght](https://github.com/zerol1ght/chatty-edit)
 
-* [SoftX By Gibbu](https://github.com/DiscordStyles/SoftX) (BetterDiscord Theme And Stylus Theme)
+* [ClearVision By The ClearVision Team](https://github.com/ClearVision/ClearVision-v6) (BetterDiscord Theme And Stylus Theme (stylus update soon))
 </details>
