@@ -33,8 +33,6 @@
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.css" In the folder with your name outside entierly of the "Simplicity" folder
-
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
@@ -50,8 +48,6 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 
 * **Step 2:** Paste the below code in your terminal:
 
-* **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside the folder with your name.
-
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
@@ -66,8 +62,6 @@ cd replugged/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://
 * **Step 1:** Open **Command Prompt** / **Terminal**
 
 * **Step 2:** Paste the below code in your terminal:
-
-* **Step 3:** Move the "theme.scss" In the folder with your name back so that it's still inside "Simplicity" folder but not inside the folder with your name.
 
 (for first time downloaders remove && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
