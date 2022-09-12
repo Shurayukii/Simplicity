@@ -1,9 +1,3 @@
-# Current Replugged/Kernel Release: 3.0.3:
-* Fixed a bug that could have been avoided if i was not stupid
-
-# Current BetterDiscord Release: 2.0.0:
-* Rework 2.0, only for me atm it's really hard to make it custom to everyones appeals rn
-
 ## Features
 - [X] Custom Background Images
 - [X] Modern look of Discord
