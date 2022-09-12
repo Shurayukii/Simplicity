@@ -38,7 +38,7 @@
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
-cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git
+cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git --branch Shurayukii
 ```
 </details>
 
@@ -55,7 +55,7 @@ cd AppData/Roaming/BetterDiscord/themes && rd /s /q "Simplicity" && git clone ht
 (for first time downloaders remove the && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
-cd replugged/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git
+cd replugged/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git --branch Shurayukii
 ```
 </details>
 
@@ -72,7 +72,7 @@ cd replugged/src/Powercord/themes && rd /s /q "Simplicity" && git clone https://
 (for first time downloaders remove && rd /s /q "Simplicity" from the command line otherwise it doesn't work)
 
 ```bash
-cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && cd .. && cd.. && cd .. && cd kernel\betterdiscord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git && pause
+cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git --branch Shurayukii && cd .. && cd.. && cd .. && cd kernel\betterdiscord\themes && rd /s /q "Simplicity" && git clone https://github.com/Shurayukii/Simplicity.git --branch Shurayukii && pause
 ```
 </details>
  
