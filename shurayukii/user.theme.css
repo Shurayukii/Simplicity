@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Simplicity Stylus Edition
 @description 1:1 port of BetterDiscord theme to the Web
-@version 1.0.4
+@version 2.0.0
 @namespace Shurayukii#6756
 @author Shurayukii (https://github.com/Shurayukii)
 @homepageURL https://github.com/Shurayukii/Simplicity
@@ -10,274 +10,146 @@
 
 @-moz-document domain("discord.com")
     {
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
-
-/* Theme imports */
-@import url("https://discordstyles.github.io/SoftX/SoftX.css"); /* Base theme, don't remove. */
-@import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
-@import url("https://discordstyles.github.io/Addons/windows-titlebar.css"); /* Windows titlebar. | Remove this line to disable. */
-@import url("https://discord-extensions.github.io/modern-user-connections/src/source.css"); /**/
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Facebook.css");
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/edited.css"); /**/
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v6/main.css");
 @import url("https://lavender-discord.github.io/IconsaxDiscord/theme.css");
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/tags.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/server.css"); /**/
-@import url("https://crearts-community.github.io/CreArts-Discord/modules/custom/user.css"); /**/
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/dash.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/edited.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/help.css");
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/button/gift.css");
+@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
-/* Extra Imports */
-
-@import url("https://lavender-discord.github.io/Lavender/modules/addons/colored-svgs.css");
-@import url("https://lavender-discord.github.io/Lavender/modules/addons/context-icons.css");
-
-/* Extra Imports End */
-
+/* SETTINGS */
 :root {
-	/* SoftX variables */
-	--background-image: url('https://pbs.twimg.com/media/Faq30aqUYAAYx0i?format=jpg&name=medium'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-	--background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
+  /* ACCENT COLORS */
+  --main-color: #ff473a; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #b81c00; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
-	--accent: 201,84,255; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
+  /* STATUS COLORS */
+  --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+  --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
-	--channels-width: 300px; /* Width of the channels list. | Default: 300px */
-	--guilds-width: 105px; /* Width of the server list. | Default: 105px */
-	--members-width: 280px; /* Width of the members list. | Default: 280px */
+  /* GENERAL */
+  --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
+  --text-normal: rgb(220, 221, 222); /* color of default discord text */
+  --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+  --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
+  --members-width: 240px; /* member list width [default: 240px] */
 
-	--server-size: 48px; /* Size of the servers inside the server list. | Default: 50px */
-	--chat-avatar-size: 40px; /* Size of the chat avatars. | Default: 32px */
+  /* APP BACKGROUND */
+  --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
+  --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
+  --background-image: url(https://www.dropbox.com/s/c8lkqye70kyvz8x/lava.gif?dl=1); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-position: center; /* app background position [default: center] */
+  --background-size: cover; /* app background size [default: cover] */
+  --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
+  --background-attachment: fixed; /* app background attachment [default: fixed] */
+  --background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
+  --background-contrast: 100%; /* app background contrast [default: 100%] */
+  --background-saturation: 100%; /* app background saturation [default: 100%] */
+  --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
+  --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
+  --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
+  --background-blur: 0px; /* app background blur [default: 0px] */
 
-	--glow-intensity: 1; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
+  /* HOME BUTTON ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-position: center; /* home button icon position [default: center] */
+  --home-size: 40px; /* home button icon size [default: 40px] */
 
-	--opacity: .65; /* Opacity of overall app. | Default: .85 */
+  /* CHANNEL COLORS */
+  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
+  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
-	--font: 'Inter'; /* Custom font | Default: 'Inter' */
+  /* MODAL BACKDROP */
+  --backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
+  --backdrop-image: var(--background-image); /* modal backdrop image (link must be HTTPS) [default: var(--background-image)] */
+  --backdrop-position: var(--background-position); /* modal backdrop position [default: var(--background-position)] */
+  --backdrop-size: var(--background-size); /* modal backdrop size [default: var(--background-size)] */
+  --backdrop-repeat: var(--background-repeat); /* modal backdrop repeat [default: var(--background-repeat)] */
+  --backdrop-attachment: var(--background-attachment); /* modal backdrop attachment [default: var(--background-attachment)] */
+  --backdrop-brightness: var(--background-brightness); /* modal backdrop brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
+  --backdrop-contrast: var(--background-contrast); /* modal backdrop contrast [default: var(--background-contrast)] */
+  --backdrop-saturation: var(--background-saturation); /* modal backdrop saturation [default: var(--background-saturation)] */
+  --backdrop-invert: var(--background-invert); /* modal backdrop invert (0 - 100%)  [default: var(--background-invert)] */
+  --backdrop-grayscale: var(--background-grayscale); /* modal backdrop grayscale ( 0 - 100%) [default: var(--background-grayscale)] */
+  --backdrop-sepia: var(--background-sepia); /* modal backdrop sepia (0 - 100%) [default: var(--background-sepia)] */
+  --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
 
-	--avatar-roundness: 25%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
-	--server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
+  --user-popout-position: var(--background-position); /* user popout background position [default: var(--background-position)] */
+  --user-popout-size: var(--background-size); /* user popout background size [default: var(--background-size)] */
+  --user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(--background-repeat)] */
+  --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+  --user-popout-brightness: var(--background-brightness); /* user popout background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
+  --user-popout-contrast: var(--background-contrast); /* user popout background contrast [default: var(--background-contrast)] */
+  --user-popout-saturation: var(--background-saturation); /* user popout background saturation [default: var(--background-saturation)] */
+  --user-popout-invert: var(--background-invert); /* user popout background invert (0 - 100%) [default: var(--background-invert)] */
+  --user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(--background-grayscale)] */
+  --user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(--background-sepia)] */
+  --user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
+  --user-popout-overlay: rgba(0, 0, 0, 0.6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
 
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
+  --user-modal-position: var(--background-position); /* user modal background position [default: var(--background-position)] */
+  --user-modal-size: var(--background-size); /* user modal background size [default: var(--background-size)] */
+  --user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(--background-repeat)] */
+  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
+  --user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
+  --user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(--background-contrast)] */
+  --user-modal-saturation: var(--background-saturation); /* user modal background saturation [default: var(--background-saturation)] */
+  --user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(--background-invert)] */
+  --user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(--background-grayscale)] */
+  --user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
+  --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 
+  /* THEME BD COLORS */
+  --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
+  --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
+  --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
 
-	/* RadialStatus veriables */
-	--rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
-	--rs-medium-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
-	--rs-large-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout fullscreen) | Default: 4px */
+    /* Radial Status Settings, (https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css) */
+    
+    --rs-small-spacing: 0px;
+    --rs-medium-spacing: 0px;
+    --rs-large-spacing: 0px; 
+    --rs-small-width: 2.5px; 
+    --rs-medium-width: 3px; 
+    --rs-large-width: 5px; 
+    --rs-avatar-shape: 25%; 
+    --rs-online-color: #33ce88; 
+    --rs-idle-color:  #f5861f;
+    --rs-dnd-color: #ff4040;
+    --rs-offline-color: #727171; 
+    --rs-streaming-color: #643da7; 
+    --rs-invisible-color: var(--rs-offline-color); 
+    --rs-phone-color: var(--rs-online-color); 
+    --rs-phone-visible: visible; 
 
-	--rs-small-width: 1.5px; /* Ring width (follows same sizing as above) | Default: 1.5px */
-	--rs-medium-width: 2px; /* Default: 2px */
-	--rs-large-width: 2px; /* Default: 2px */
+    /* ServerColumns Settings, (https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css) */
+    
+    --columns: 2; 
+    --guildsize: 45; 
+    --guildgap: 2.5;
+    --aligndms: 1; 
 
-	/* Customizable colors */
-	--rs-online-color: #43b581; /* Default: #43b581 */
-	--rs-idle-color: #faa61a; /* Default: #faa61a */
-	--rs-dnd-color: #f04747; /* Default: #f04747 */
-	--rs-offline-color: #636b75; /* Default: #636b75 */
-	--rs-streaming-color: #643da7; /* Default: #643da7 */
-	--rs-invisible-color: #747f8d; /* Default: #747f8d */
-	--rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
-
-	--rs-phone-visible: visible; /* Visibility of the phone for mobile users | Default: block */
-    }
-
-/* Shows Entire Banner In Settings */
-
-.settingsBanner-1eDJ5w {
-    height: 240px;
+    /* Windows Title Bar Settings, (https://discordstyles.github.io/Addons/windows-titlebar.css) */
 }
-
-.userInfo-regn9W .avatar-3mTjvZ {
-    top: 220px !important;
+.winButton-3UMjdg {
+  max-height: 75% !important; 
 }
-
-/* Shows Entire Banner In Settings End */
-
-/* Better Jump To Present Button */
-
-[class*="jumpToPresentBar"] {
-  display: contents;
-}
-[class*="jumpToPresentBar"] > button:first-child {
-  display: none;
-}
-[class*="jumpToPresentBar"] > button:last-child {
-  position: absolute;
-  z-index: 1;
-  bottom: 24px;
-  right: 22px;
-  padding: 8px !important;
-  height: auto;
-  background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: var(--elevation-high);
-  border-radius: 100px;
-  display: flex;
-  font-size: 0px;
-  color: transparent;
-  transition: font-size .2s .1s, color .2s, padding .4s .1s;
-}
-[class*="jumpToPresentBar"] > button svg {
-  order: -1;
-  margin: 0px;
-  height: 24px;
-  width: 24px;
-  top: auto;
-  margin-right: 0px;
-  margin-left: 0px;
-  color: #FFFFFF;
-  transition: margin .6s;
-}
-[class*="jumpToPresentBar"]:hover > button {
-  padding: 8px 18px !important;
-  font-size: 14px;
-  color: #FFFFFF;
-  transition: font-size .2s, color .2s .1s, padding .4s;
-}
-[class*="jumpToPresentBar"]:hover > button svg {
-  margin-right: 2px;
-  margin-left: -6px;
-}
-
-/* Better Jump To Present Button End */
-
-/* Pop-out Animation */ 
-
-.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
-  animation: custom-menu-animation 250ms ease;
-  transform-origin: top;
-}
-@keyframes custom-menu-animation {
-  0% {
-      transform: scaleY(0);
-  }
-  100% {
-      transform: scaleY(1);
-  }
-}
-
-/* Pop-out Animation End */
-
-/* Banner Color Around User Thingy Magig Don't Ask Me */
-
-.userPopout-2j1gM4{
-  transform:translate(0);
-  --border-width:3px;
-}
-
-.userPopout-2j1gM4 .banner-1YaD3N:after{
-  content:'';
-  position:fixed;
-  height:100%;
-  width:100%;
-  z-index:1;
-  border:var(--border-width) solid #0000;
-  background-color:inherit;
-  background-origin: border-box;
-  -webkit-mask: 
-      linear-gradient(#000 0 0) padding-box, 
-      linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  box-sizing:border-box;
-  border-radius:4.5px;
-  pointer-events:none;
-}
-
-/* Banner Color Around User Thingy Magig Don't Ask Me End */
-
-/* Old Hypesquad Icons */
-
-img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiIGZpbGw9IiM0NWRkYzAiLz48L3N2Zz4=")}img[src$="efcc751513ec434ea4275ecda4f61136.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBmaWxsPSIjOWM4NGVmIiBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiLz48L3N2Zz4=")}img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"]{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6dj0iaHR0cHM6Ly92ZWN0YS5pby9uYW5vIj48cGF0aCBmaWxsPSIjZjQ3YjY3IiBkPSJNMjEuNTkxIDUuMzE4bC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOThoLjAwMXoiLz48L3N2Zz4=")}
-
-/* Old Hypesquad Icons End */
-
-/* Compact User Popout */
-
-#account.menu-1QACrS {
-    width: 220px;
-}
-
-#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
-    max-width: 220px;
-}
-
-#account.menu-1QACrS .profileGroup-1yKk23,
-#account.menu-1QACrS .profileGroup-1yKk23 + .separator-1So4YB {
-    display:none;
-}
-  
-/* Compact User Popout End */
-
-/* Better User Area */
-
-.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
-  opacity: 0% !important;
-  width: 0px;
-  transition: all 0.2s ease-in-out;
-}
-
-.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
-  opacity: 100% !important;
-  width: 32px;
-}
-
-/* Better User Area End */
-
-/* Nicer Links (Specific Links Only) */
-
-[href*="youtu.be"],
-[href*="youtube.com"] {
-    color: #C4302B !important;
-    font-weight: 700;
-}
-
-[href*="twitch.tv"] {
-    color: #B700FF !important;
-    font-weight: 700;
-}
-
-[href*="spotify.com"] {
-    color:rgb(19, 185, 4) !important; 
-    font-weight: 700;
-}
-
-[href*="discord.com/channels/"] {
-    color: #5865F2 !important;
-}
-
-[href*="discord.com/channels/"]::before {
-    content:'Jump to Message: ';
-    font-size:16px;
-    font-weight:700;
-    color: #5865F2;
-}
-
-[href*="reddit.com"] {
-    color: #FF4500 !important; 
-    font-weight: 700;
-}
-
-[href*="instagram.com/"]{
-    background: -webkit-linear-gradient(80deg, rgb(255, 238, 0), rgb(255, 157, 11), #B700FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-} 
-
-[href*="twitter.com/"]{
-    color: #00ACEE !important;
-    font-weight: 700;
-}
-
-[href*="discord.com/"],
-[href*="discord.gg/"] {
-    color:#5865F2 !important;
-    font-weight: 700;
-}
-
-[href*="github.com"] {
-    color: #00F0A8 !important;
-    font-weight: 700;
-}
-
-/* Nicer Links (Specific Links Only) End */
 }
