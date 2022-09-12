@@ -1,7 +1,7 @@
 # Current Replugged/Kernel Release: 3.0.3:
 * Fixed a bug that could have been avoided if i was not stupid
 
-# Current BetterDiscord Release: 2.0.0:
+# Current BetterDiscord/Stylus Release: 2.0.0:
 * Rework 2.0, only for me atm it's really hard to make it custom to everyones appeals rn
 
 ## Features
@@ -105,5 +105,5 @@ cd kernel\powercord\themes && rd /s /q "Simplicity" && git clone https://github.
 
 * [Chatty Edit By zerol1ght](https://github.com/zerol1ght/chatty-edit)
 
-* [ClearVision By The ClearVision Team](https://github.com/ClearVision/ClearVision-v6) (BetterDiscord Theme And Stylus Theme (stylus update soon))
+* [ClearVision By The ClearVision Team](https://github.com/ClearVision/ClearVision-v6) (BetterDiscord Theme And Stylus Theme)
 </details>
