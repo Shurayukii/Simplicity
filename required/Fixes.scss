@@ -1,9 +1,9 @@
 .scroller-1ox3I2, .header-3OsQeK, .container-YkUktl, .scroller-WSmht3, .searchBar-3TnChZ, .channelTextArea-1FufC0, .scrollableContainer-15eg7h, .contentWrapper-3vHNP2, .messageGroupWrapper-1jf_7C, .header-1w9Q93, .channelHeader-DFRX8q, .messageContainer-3VTXBC, .grid-1aWVsE, .list-2u03C-, .wrapper-1NNaWG, .container-2ebMPP, .message-G6O-Wv, .menu-1QACrS, .wrapper-3Hk9OB, .wrapper-1_HaEi, .container-2Y4CWj, .pageWrapper-2PwDoS, .thin-31rlnD, .messages-23can0, .kernel-card, .popoutContainer-2wbmiM, .guildSection-2Zyzy8, .animatorTop-3ltI52, .container-6sXIoE, .panel-2ZFCRb {
-	background-color: rgba(0, 0, 0, 0.4) !important;
+	background-color: var(--background-primary) !important;
 }
 
 .sidebarRegionScroller-FXiQOh, .searchBarComponent-3N7dCG, .inputDefault-3FGxgL, .pc-notice-footer {
-	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-color: var(--background-secondary-alt) !important;
 }
 
 .channelTextArea-1FufC0 {
@@ -15,7 +15,7 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.replyBar-1oi75v, .body-2wLx-E, .headerText-1-WmDq {
+.replyBar-1oi75v, .body-2wLx-E, .headerText-1-WmDq, .container-1oAagU, .scroller-hE2gWq {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -29,16 +29,16 @@
 
 .messagesPopoutWrap-3zryHW {
 	max-height: 750px !important;
-	background-color: rgba(0, 0, 0, 0.4) !important;
-	border-radius: 18px !important;
+	background-color: var(--background-primary) !important;
+	border-radius: var(--chattyBorderRadius) !important;
 }
 
 .pc-notice-container {
-	background-color: rgba(0, 0, 0, 0.6) !important;
+	background-color: var(--background-secondar) !important;
 }
 
-.animatorRight-xAUgTY, .animatorLeft-3yvG13, .pageWrapper-2PwDoS, .chat-2ZfjoI, .sidebar-1tnWFu, .pc-settings-card-header, .pc-settings-addon-card, .flex-2S1XBF, .bd-addon-card, .kernel-card, .pc-notice-container, .layer-2aCOJ3, .scroller-1bVxF5, .animatorTop-3ltI52, .container-2ebMPP, .pc-notice-button, .container-2IhveL, .container-2qVG6q {
-	border-radius: 18px !important;
+.animatorRight-xAUgTY, .animatorLeft-3yvG13, .pageWrapper-2PwDoS, .chat-2ZfjoI, .sidebar-1tnWFu, .pc-settings-card-header, .pc-settings-addon-card, .flex-2S1XBF, .bd-addon-card, .kernel-card, .pc-notice-container, .layer-2aCOJ3, .scroller-1bVxF5, .animatorTop-3ltI52, .container-2ebMPP, .pc-notice-button, .container-2IhveL, .container-2qVG6q, .itemCard-3Etziu {
+	border-radius: var(--chattyBorderRadius) !important;
 }
 
 .inputDefault-3FGxgL {
@@ -55,9 +55,9 @@
 
 .container-3wLKDe {
 	background-color: rgba(0, 0, 0, 0.1) !important;
-	border-radius: 18px !important;
+	border-radius: var(--chattyBorderRadius) !important;
 }
 
-.animatorRight-xAUgTY, .animatorLeft-3yvG13, .animatorTop-3ltI52 {
-	background-color:rgba(0, 0, 0, 0.9) !important;
+.scroller-hE2gWq {
+	border: 0px !important;
 }
