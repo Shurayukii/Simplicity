@@ -1,7 +1,7 @@
 ---
 ### [Binky Click This For Your Branch!](https://github.com/Shurayukii/Simplicity/tree/Binky)
 ---
-### [Ed And Kat Click This For Your Branch!](https://github.com/Shurayukii/Simplicity/tree/Ed-And-Kat)
+### [Ed Click This For Your Branch!](https://github.com/Shurayukii/Simplicity/tree/Ed)
 ---
 ### [Luther Click This For Your Branch!](https://github.com/Shurayukii/Simplicity/tree/Luther)
 ---
