@@ -64,12 +64,53 @@
 
 // Windows Title Bar Settings, (https://discordstyles.github.io/Addons/windows-titlebar.css) //
 
-.tools-kIrEGr {
-  margin-top: 30px !important; // DO. NOT. CHANGE. //
-}
+// DON'T TOUCH UNLESS YOU KNOW WHAT U ARE DOING //
 
 .typeWindows-2-g3UY {
-  position: relative !important; // DO. NOT. CHANGE. //
+  position: relative !important;
+}
+
+.wordmark-2u86JB {
+  display: none;
+}
+
+#channelTabs-container{
+  -webkit-app-region: drag;
+  width: calc(100vw - 100px);
+}
+
+.titleBar-1it3bQ {
+  -webkit-app-region: drag;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 4000;
+  height: calc(var(--channelTabs-tabHeight) + 4px);
+}
+
+.channelTabs-tabNav, .channelTabs-tab, .channelTabs-newTab, #channelTabs-settingsMenu {
+  -webkit-app-region: no-drag;
+}
+
+#channelTabs-settingsMenu {
+  margin-right: 84px;
+  top: 0;
+  height: 22px !important;
+  width: 28px !important;
+}
+
+.channelTabs-settingsIcon {
+  max-height: 10px !important;
+  max-width: 10px !important;
+}
+
+.channelTabs-tabContainer {
+  width: calc(100% - 28px);
+}
+
+.channelTabs-favContainer {
+  -webkit-app-region: no-drag;
+  width: calc(100vw - 16px);
 }
 
 //__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//__//
