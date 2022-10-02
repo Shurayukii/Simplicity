@@ -6,10 +6,9 @@
  * @description Reworked yet again
 */
 
-
-
 /* IMPORT CSS */
 @import url("https://clearvision.github.io/ClearVision-v6/main.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
 @import url("https://lavender-discord.github.io/IconsaxDiscord/theme.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://crearts-community.github.io/CreArts-Discord/modules/replace/fonts.css");
@@ -23,8 +22,8 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #ff473a; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #b81c00; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --main-color: #1cacff; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #0040b8; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
@@ -47,7 +46,7 @@
   /* APP BACKGROUND */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://www.dropbox.com/s/c8lkqye70kyvz8x/lava.gif?dl=1); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://cdn.discordapp.com/attachments/921402389641179187/1025764667810906152/holomyth__gawr_gura_by_dolphenry_de71py5.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -129,8 +128,8 @@
     --rs-medium-width: 3px; 
     --rs-large-width: 5px; 
     --rs-avatar-shape: 25%; 
-    --rs-online-color: #33ce88; 
-    --rs-idle-color:  #f5861f;
+    --rs-online-color: #ff6702; 
+    --rs-idle-color:  #01ffd5;
     --rs-dnd-color: #ff4040;
     --rs-offline-color: #727171; 
     --rs-streaming-color: #643da7; 
@@ -138,14 +137,30 @@
     --rs-phone-color: var(--rs-online-color); 
     --rs-phone-visible: visible; 
 
-    /* ServerColumns Settings, (https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css) */
+/* ServerColumns Settings, (https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css) */
     
-    --columns: 2; 
-    --guildsize: 45; 
-    --guildgap: 2.5;
-    --aligndms: 1; 
+--columns: 2; 
+--guildsize: 45; 
+--guildgap: 2.5;
+--aligndms: 1; 
 
-    /* Windows Title Bar Settings, (https://discordstyles.github.io/Addons/windows-titlebar.css) */
+/* lazy */
+
+--chat-bubble: 1;
+--chat-bubble-background-color: rgba(0,0,0,0.7);
+--chat-bubble-border-color: var();
+--chat-bubble-code-background-color: rgba(0,0,0,0.8);
+--chat-bubble-max-width: 90%;
+--chat-bubble-border-radius: 18px;
+--chat-bubble-box-shadow-h-offset: 5px;
+--chat-bubble-box-shadow-v-offset: 5px;
+--chat-bubble-box-shadow-blur: 20px;
+--chat-bubble-box-shadow-color-h: 180;
+--chat-bubble-box-shadow-color-s: 100%;
+--chat-bubble-box-shadow-color-l: 50%;
+--chat-bubble-box-shadow-color-a: 0.8;
+
+/* Windows Title Bar Settings, (https://discordstyles.github.io/Addons/windows-titlebar.css) */
 }
 .winButton-3UMjdg {
   max-height: 75% !important; 
