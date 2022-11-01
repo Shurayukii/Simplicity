@@ -22,8 +22,8 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #1cacff; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #0040b8; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --main-color: #4503be; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #30007e; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
@@ -46,7 +46,7 @@
   /* APP BACKGROUND */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://cdn.discordapp.com/attachments/921402389641179187/1025764667810906152/holomyth__gawr_gura_by_dolphenry_de71py5.png); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://media.discordapp.net/attachments/921402389641179187/1037114984230035486/a.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
