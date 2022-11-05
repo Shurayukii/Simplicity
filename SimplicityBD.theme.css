@@ -19,6 +19,14 @@
 @import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
+
+.side-2ur1Qk>:where(.bd-sidebar-header,[class*=-tab],[class*=-tab]+.separator-2wx7h6,:nth-child(-n+9)) {
+  order: -1;
+}
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 15px; 
+}
 
 /* SETTINGS */
 :root {
